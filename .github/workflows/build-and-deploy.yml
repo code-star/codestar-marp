@@ -25,7 +25,7 @@ jobs:
               -e MARP_USER=root:root \
               -v "$PWD:/workspace" \
               -w /workspace \
-              marpteam/marp-cli:v3.0.2 "decks/$dir/slides.md" -o "build/$dir/index.html"
+              marpteam/marp-cli:v3.0.2 "decks/$dir/slides.md" -o "build/$dir/index.html" --theme theme/codestar.css
             rsync -av --exclude='slides.md' "decks/$dir/" "build/$dir/"
           fi
         done
