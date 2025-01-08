@@ -1,0 +1,31 @@
+@use "sass:list";
+
+$cs-colors:
+  #b03a48,
+  #d4804d,
+  #d6b74b,
+  #3e7a4c,
+  #3266A3,
+  #915394,
+  #d980a0;
+
+$cs-color-names:
+  "red",
+  "orange",
+  "yellow",
+  "green",
+  "blue",
+  "purple",
+  "pink";
+
+:root {
+  --cs-background: #f1e7da;
+  --cs-background-dark: #182738;
+  --cs-red: #{list.nth($cs-colors, 1)};
+  --cs-orange: #{list.nth($cs-colors, 2)};
+  --cs-yellow: #{list.nth($cs-colors, 3)};
+  --cs-green: #{list.nth($cs-colors, 4)};
+  --cs-blue: #{list.nth($cs-colors, 5)};
+  --cs-purple: #{list.nth($cs-colors, 6)};
+  --cs-pink: #{list.nth($cs-colors, 7)};
+}

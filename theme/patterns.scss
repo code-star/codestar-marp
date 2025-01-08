@@ -1,0 +1,133 @@
+/* All patterns adapted from https://css-pattern.com/ */
+
+@mixin setup {
+  --s: 300px;
+  --c2: var(--current-accent);
+  --c3: color-mix(in hsl, var(--current-accent), #000000 5%);
+  --c1: color-mix(in hsl, var(--current-accent), #000000 10%);
+  --c4: color-mix(in hsl, var(--current-accent), #000000 15%);
+  --c5: color-mix(in hsl, var(--current-accent), #000000 20%);
+}
+
+@mixin cubes {
+  @include setup;
+  background:
+    repeating-conic-gradient(from 30deg,#0000 0 120deg,var(--c3) 0 50%)
+      calc(var(--s)/2) calc(var(--s)*tan(30deg)/2),
+    repeating-conic-gradient(from 30deg,var(--c1) 0 60deg,var(--c2) 0 120deg,var(--c3) 0 50%);
+  background-size: var(--s) calc(var(--s)*tan(30deg));
+}
+
+@mixin overlapping {
+  @include setup;
+  --s2: calc(var(--s) / 1.5);
+  --g: 0 120deg,#0000 0;
+  background:
+    conic-gradient(             at calc(250%/3) calc(100%/3),var(--c3) var(--g)),
+    conic-gradient(from -120deg at calc( 50%/3) calc(100%/3),var(--c1) var(--g)),
+    conic-gradient(from  120deg at calc(100%/3) calc(250%/3),var(--c2) var(--g)),
+    conic-gradient(from  120deg at calc(200%/3) calc(250%/3),var(--c2) var(--g)),
+    conic-gradient(from -180deg at calc(100%/3) 50%,var(--c1)  60deg,var(--c2) var(--g)),
+    conic-gradient(from   60deg at calc(200%/3) 50%,var(--c2)  60deg,var(--c3) var(--g)),
+    conic-gradient(from  -60deg at 50% calc(100%/3),var(--c2) 120deg,var(--c1) 0 240deg,var(--c3) 0);
+  background-size: calc(var(--s2)*sqrt(3)) var(--s2);
+}
+
+@mixin hollow-cubes {
+  @include setup;
+  --g: var(--c1) 10%,var(--c2) 10.5% 19%,#0000 19.5% 80.5%,var(--c2) 81% 89.5%,var(--c3) 90%;
+  --c: from -90deg at 37.5% 50%,#0000 75%;
+  --l1: linear-gradient(145deg,var(--g));
+  --l2: linear-gradient( 35deg,var(--g));
+  background:
+    var(--l1), var(--l1) calc(var(--s)/2) var(--s),
+    var(--l2), var(--l2) calc(var(--s)/2) var(--s),
+    conic-gradient(var(--c),var(--c1) 0) calc(var(--s)/8) 0,
+    conic-gradient(var(--c),var(--c3) 0) calc(var(--s)/2) 0,
+    linear-gradient(90deg,var(--c3) 38%,var(--c1) 0 50%,var(--c3) 0 62%,var(--c1) 0);
+  background-size: var(--s) calc(2*var(--s)/3);
+}
+
+@mixin pillars {
+  @include setup;
+  --g: var(--c3) 0 120deg,#0000 0;
+  background:
+    conic-gradient(from -60deg at 50% calc(100%/3),var(--g)),
+    conic-gradient(from 120deg at 50% calc(200%/3),var(--g)),
+    conic-gradient(from  60deg at calc(200%/3),var(--c3) 60deg,var(--c2) 0 120deg,#0000 0),
+    conic-gradient(from 180deg at calc(100%/3),var(--c1) 60deg,var(--g)),
+    linear-gradient(90deg,var(--c1)   calc(100%/6),var(--c2) 0 50%,
+                          var(--c1) 0 calc(500%/6),var(--c2) 0);
+  background-size: calc(1.732*var(--s)) var(--s);
+}
+
+@mixin triangles {
+  @include setup;
+
+  --g: conic-gradient(from 30deg at 50% 25%,#0000 300deg,var(--c1) 0);
+  background:
+    var(--g) calc(0.2885*var(--s)) calc(7*var(--s)/12),
+    var(--g) 0 calc(var(--s)/12),
+    conic-gradient(from 120deg at 50% calc(250%/3),var(--c2) 120deg,#0000 0),
+    repeating-conic-gradient(from 30deg,#0000 0 60deg,var(--c1) 0 120deg),
+    repeating-conic-gradient(var(--c3) 0 60deg,var(--c2) 0 120deg,var(--c4) 0 180deg);
+  background-size: calc(0.577*var(--s)) var(--s);
+}
+
+@mixin zig-zag {
+  @include setup;
+  --s2: calc(var(--s) / 5);
+
+  --g1: conic-gradient(at calc(250%/3) calc(50%/3),var(--c2) 60deg,#0000 0 300deg,var(--c1) 0);
+  --g2: conic-gradient(at calc(50%/3) 50%,#0000 75%,var(--c1) 0);
+  --g3: conic-gradient(at calc(100%/3) 50%,#0000 75%,var(--c2) 0);
+  --g4: conic-gradient(from 59deg at calc(200%/3) calc(249%/9),var(--c3) 61deg,#0000 62deg);
+  --g5: conic-gradient(from 60deg at 50% calc(250%/3),var(--c4) 60deg,var(--c1) 0 120deg,#0000 0);
+  --p: calc(9*tan(30deg)*var(--s2));
+  background:
+    var(--g1) calc(-1*var(--s2)) 0,var(--g1) calc(2*var(--s2)) var(--p),
+    var(--g2),var(--g2) calc(3*var(--s2)) var(--p),
+    var(--g3),var(--g3) calc(3*var(--s2)) var(--p),
+    var(--g4),var(--g4) calc(3*var(--s2)) var(--p),
+    var(--g5) calc(3*var(--s2)) 0,var(--g5) 0 var(--p) var(--c3);
+  background-size: calc(6*var(--s2)) calc(2*var(--p))
+}
+
+@mixin rectangles {
+  @include setup;
+  --l:#0000 calc(25%/3),var(--c3) 0 25%,#0000 0;
+  --g:conic-gradient(from 120deg at 50% 87.5%,var(--c3) 120deg,#0000 0);
+  background:
+    var(--g),var(--g) 0 calc(var(--s)/2),
+    conic-gradient(from 180deg at 75%,var(--c2) 60deg,#0000 0),
+    conic-gradient(from 60deg at 75% 75%,var(--c3) 0 60deg,#0000 0),
+    linear-gradient(150deg,var(--l)) 0 calc(var(--s)/2),
+    conic-gradient(at 25% 25%,#0000 50%,var(--c2) 0 240deg,var(--c3) 0 300deg,var(--c2) 0),
+    linear-gradient(-150deg,var(--l)) var(--c1);
+  background-size: calc(0.866*var(--s)) var(--s);
+}
+
+@mixin stairs {
+  @include setup;
+  --s2: calc(var(--s) / 3);
+  --g: conic-gradient(at 50% 25%,#0000 75%,var(--c1) 0);
+  background:
+    var(--g),var(--g) var(--s2) var(--s2),
+    var(--g) calc(2*var(--s2)) calc(2*var(--s2)),
+    var(--g) calc(3*var(--s2)) calc(3*var(--s2)),
+    repeating-linear-gradient(135deg,var(--c2) 0 12.5%,var(--c3) 0 25%);
+  background-size: calc(4*var(--s2)) calc(4*var(--s2))
+}
+
+$patterns: "hollow-cubes", "overlapping", "pillars", "cubes", "triangles", "zig-zag", "rectangles", "stairs";
+
+@mixin pattern($name) {
+  @if      $name == "cubes"        { @include cubes; }
+  @else if $name == "overlapping"  { @include overlapping; }
+  @else if $name == "hollow-cubes" { @include hollow-cubes; }
+  @else if $name == "pillars"      { @include pillars; }
+  @else if $name == "triangles"    { @include triangles; }
+  @else if $name == "zig-zag"      { @include zig-zag; }
+  @else if $name == "rectangles"   { @include rectangles; }
+  @else if $name == "stairs"       { @include stairs; }
+}

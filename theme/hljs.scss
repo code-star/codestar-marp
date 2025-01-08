@@ -1,0 +1,162 @@
+/* highlight.js support */
+
+
+// To add more languages, consult this list:
+// https://github.com/highlightjs/highlight.js/blob/main/SUPPORTED_LANGUAGES.md
+// Make sure to escape symbols that can't be in a class name like "+"
+$languages: (
+  "Awk": "awk",
+  "Bash": "bash, sh",
+  "C#": "csharp, cs",
+  "C": "c, h",
+  "C++": "cpp, hpp, cc, hh, c\\+\\+, h\\+\\+, cxx, hxx",
+  "CMake": "cmake",
+  "CSS": "css",
+  "Clojure": "clojure, clj",
+  "Elm": "elm",
+  "F#": "fsharp, fs, fsx, fsi, fsscript",
+  "Go": "go, golang",
+  "Gradle": "gradle",
+  "GraphQL": "graphql, gql",
+  "HTML, XML": "xml, html, xhtml, rss, atom, xjb, xsd, xsl, plist, svg",
+  "Haskell": "haskell, hs",
+  "JSON": "json, jsonc",
+  "Java": "java, jsp",
+  "JavaScript": "javascript, js, jsx",
+  "Julia": "julia, jl",
+  "Kotlin": "kotlin, kt",
+  "LaTeX": "tex",
+  "Lisp": "lisp",
+  "Lua": "lua, pluto",
+  "Makefile": "makefile, mk, mak, make",
+  "Markdown": "markdown, md, mkdown, mkd",
+  "Matlab": "matlab",
+  "Nginx": "nginx, nginxconf",
+  "Nim": "nim, nimrod",
+  "OCaml": "ocaml, ml",
+  "Objective C": "objectivec, mm, objc, obj-c, obj-c\\+\\+, objective-c\\+\\+",
+  "OpenGL Shading Language": "glsl",
+  "PHP": "php",
+  "Perl": "perl, pl, pm",
+  "PostgreSQL": "pgsql, postgres, postgresql",
+  "PowerShell": "powershell, ps, ps1",
+  "Python": "python, py, gyp",
+  "R": "r",
+  "Ruby": "ruby, rb, gemspec, podspec, thor, irb",
+  "Rust": "rust, rs",
+  "SCSS": "scss",
+  "SQL": "sql",
+  "Scala": "scala",
+  "Svelte": "svelte",
+  "Swift": "swift",
+  "Terraform": "terraform, tf, hcl",
+  "TypeScript": "typescript, ts, tsx, mts, cts",
+  "YAML": "yml, yaml",
+  "Zig": "zig"
+);
+
+:root {
+    --hljs-bg: var(--cs-background);
+    --hljs-mono-1: #abb2bf;
+    --hljs-mono-3: #5c6370;
+    --hljs-hue-1: var(--cs-green);
+    --hljs-hue-2: var(--cs-blue);
+    --hljs-hue-3: var(--cs-purple);
+    --hljs-hue-4: var(--cs-green);
+    --hljs-hue-5: var(--cs-red);
+    --hljs-hue-6: var(--cs-orange);
+    --hljs-hue-6-2: var(--cs-yellow);
+    --hljs-hue-7: var(--cs-green);
+}
+
+pre code.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 1em
+}
+
+code.hljs {
+  padding: 3px 5px
+}
+
+.hljs {
+  color: var(--hljs-mono-1);
+  background: var(--hljs-bg);
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: var(--hljs-mono-3);
+  font-style: italic
+}
+
+.hljs-doctag,
+.hljs-keyword,
+.hljs-formula {
+  color: var(--hljs-hue-3)
+}
+
+.hljs-section,
+.hljs-name,
+.hljs-selector-tag,
+.hljs-deletion,
+.hljs-subst {
+  color: var(--hljs-hue-5)
+}
+
+.hljs-literal {
+  color: var(--hljs-hue-1)
+}
+
+.hljs-string,
+.hljs-regexp,
+.hljs-addition,
+.hljs-attribute,
+.hljs-meta .hljs-string {
+  color: var(--hljs-hue-4)
+}
+
+.hljs-attr,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-type,
+.hljs-selector-class,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-number,
+.hljs-punctuation {
+  color: var(--hljs-hue-6)
+}
+
+.hljs-symbol,
+.hljs-bullet,
+.hljs-link,
+.hljs-meta,
+.hljs-selector-id,
+.hljs-title,
+.hljs-property,
+.hljs-tag {
+  color: var(--hljs-hue-2)
+}
+
+.hljs-built_in,
+.hljs-title.class_,
+.hljs-class .hljs-title {
+  color: var(--hljs-hue-6-2)
+}
+
+.hljs-emphasis {
+  font-style: italic
+}
+
+.hljs-strong {
+  font-weight: bold
+}
+
+.hljs-link {
+  text-decoration: underline
+}
+
+.hljs-params, .hljs-operator {
+  color: var(--hljs-hue-7)
+}

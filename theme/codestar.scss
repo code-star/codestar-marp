@@ -1,0 +1,336 @@
+/* @theme codestar */
+
+@use "sass:list";
+@use "sass:string";
+
+@use "colors";
+@use "patterns";
+@use "hljs";
+
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.cdnfonts.com/css/conduit-itc-medium");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+$url-base: "https://raw.githubusercontent.com/code-star/codestar-marp/master";
+
+@font-face {
+  font-family: "Conduit";
+  src: url("#{$url-base}/theme/fonts/ConduitITCStd.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Conduit";
+  font-weight: bold;
+  src: url("#{$url-base}/theme/fonts/ConduitITCStd-Bold.woff") format("woff");
+}
+
+@import-theme "uncover";
+
+:root {
+  font-family: "Conduit";
+  letter-spacing: normal !important;
+
+  --current-accent: var(--cs-red);
+
+  --color-background: var(--cs-background);
+  --color-background-code: color-mix(in hsl, var(--color-background), #000000 4%);
+  --color-background-paginate: transparent;
+  --color-foreground: #000000;
+  --color-highlight: var(--current-accent);
+  --color-highlight-hover: color-mix(#ffffff, var(--current-accent), 25%);
+  --color-highlight-heading: color-mix(var(--color-background), var(--current-accent), 20%);
+  --color-header: color-mix(in hsl, var(--current-accent), #000000 15%);
+  --color-header-shadow: transparent;
+}
+
+:root.invert {
+  --color-background: var(--cs-background-dark);
+  --color-foreground: var(--cs-background);
+  --color-background-code: color-mix(in hsl, var(--color-background), #ffffff 5%);
+  --color-header: var(--cs-background);
+}
+
+/* Rotating section accent colors, supports 210 slides */
+@for $i from 1 through list.length(colors.$cs-colors) {
+  @for $j from 0 to 30 {
+    section[data-marpit-pagination="#{$j * list.length(colors.$cs-colors) + $i}"] {
+      --current-accent: #{list.nth(colors.$cs-colors, $i)};
+      &::before {
+        background-image: url(
+          "#{$url-base}/theme/logo/logo_#{list.nth(colors.$cs-color-names, $i)}_light_transparent.png"
+        );
+      }
+      &.invert::before {
+        background-image: url(
+          "#{$url-base}/theme/logo/logo_#{list.nth(colors.$cs-color-names, $i)}_dark_transparent.png"
+        );
+      }
+    }
+  }
+}
+
+/* Title cards */
+section:has(> h1), section:has(> h2), section:has(.title) {
+  background-color: var(--current-accent);
+  color: var(--cs-background);
+
+  &::before {
+    content: unset;
+  }
+  &::after {
+    color: var(--cs-background);
+  }
+  header {
+    display: none;
+  }
+  footer {
+    display: none;
+  }
+}
+
+/* First title card */
+:root:has(.title) {
+  @include patterns.pattern(list.nth(patterns.$patterns, 1));
+  .title {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    grid-template-columns: 0.7fr 0.3fr;
+
+    & div {
+      padding: 1em;
+      display: flex;
+      flex-direction: column;
+    }
+
+    & div:first-child {
+      justify-content: center;
+      align-items: center;
+    }
+
+    & div:nth-child(2) {
+      color: var(--cs-background);
+      background: var(--cs-background-dark);
+      writing-mode: vertical-lr;
+
+      &::before {
+        font-style: italic;
+        content: "A presentation brought to you by";
+        transform: rotate(180deg);
+        text-align: left;
+      }
+
+      &::after {
+        content: "";
+        background-image: url("#{$url-base}/theme/logo/logo_red_dark_transparent_tagline%402x.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        flex-grow: 1;
+      }
+    }
+  }
+}
+
+/* Rotating section backgrounds for title cards */
+@for $i from 1 through list.length(patterns.$patterns) {
+  @for $j from 0 to 30 {
+    section[data-marpit-pagination="#{$j * list.length(patterns.$patterns) + $i}"]:has(> h1),
+    section[data-marpit-pagination="#{$j * list.length(patterns.$patterns) + $i}"]:has(> h2) {
+      @include patterns.pattern(list.nth(patterns.$patterns, $i));
+    }
+  }
+}
+
+/* Style slides that have a split background differently */
+section[data-marpit-advanced-background-split="left"] {
+  &[data-marpit-advanced-background="content"] {
+    border-left: 30px solid var(--current-accent);
+  }
+  &::before {
+    content: unset;
+  }
+  & footer {
+    text-align: left;
+  }
+}
+section[data-marpit-advanced-background-split="right"] {
+  &[data-marpit-advanced-background="content"] {
+    border-right: 30px solid var(--current-accent);
+  }
+  &::after {
+    color: transparent;
+  }
+  & footer {
+    text-align: right;
+  }
+}
+
+/* Headings */
+:root h1, h2, h3, h4, h5, h6 {
+  font-family: "Righteous";
+  text-transform: lowercase;
+}
+
+section:not(:has(h1)):not(:has(h2)) {
+  p, h3, h4, h5, h6 {
+    text-align: left;
+  }
+}
+
+:root h1 {
+  font-size: 3em;
+}
+
+:root h2 {
+  font-size: 2.5em;
+}
+
+/* Links */
+:root a {
+  color: var(--current-accent);
+}
+
+/* Unordered lists */
+:root ul {
+  list-style-type: none;
+  position: relative;
+
+  & li::before {
+    content: "*";
+    font-family: "Montserrat";
+    color: var(--current-accent);
+    position: absolute;
+    font-size: 133%;
+    left: 0;
+    margin-top: -0.07em;
+  }
+}
+
+/* Ordered lists */
+:root ol, :root.invert ol {
+  list-style: none;
+  counter-reset: li;
+  & li {
+    counter-increment: li;
+
+    &::before {
+      content: counter(li) '.';
+      color: var(--current-accent);
+      display: inline-block;
+      width: 1.2em;
+      margin-left: -1em;
+    }
+  }
+}
+
+/* Header & Footer */
+:root header {
+  text-align: right;
+  margin-right: -2em;
+  font-style: italic;
+  letter-spacing: normal;
+}
+
+:root footer {
+  text-align: center;
+  margin-left: -2em;
+  margin-right: -2em;
+  letter-spacing: normal;
+}
+
+/* Pagination */
+section::after {
+  content: attr(data-marpit-pagination)" / "attr(data-marpit-pagination-total);
+  text-shadow: none;
+  margin-bottom: -0.4em;
+  font-weight: bold;
+  color: var(--current-accent);
+}
+
+/* Logo */
+section::before {
+  content: "";
+  height: 0.6em;
+  aspect-ratio: 512 / 89;
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* Block quotes */
+:root blockquote {
+  font-style: italic;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  & p {
+    text-align: center;
+  }
+  &::before, &::after {
+    mask-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48cGF0aCBkPSJNNDQgMTkuMyAzOC45NCAwQzguMTQgOS41OSAwIDQwLjA1IDAgNTQuODNWMTAwaDQxLjQ3VjU0LjgzaC0yM2MtLjA0LS4yOC4yNS0yNy42NiAyNS41My0zNS41M201NiAwTDk0Ljk0IDBDNjQuMTQgOS41OSA1NiA0MC4wNSA1NiA1NC44M1YxMDBoNDEuNDdWNTQuODNoLTIzYy0uMDQtLjI4LjI1LTI3LjY2IDI1LjUzLTM1LjUzIiBzdHlsZT0iZmlsbDpjdXJyZW50Q29sb3IiLz48L3N2Zz4=");
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    background-color: var(--current-accent);
+  }
+}
+
+/* Column support */
+:root .columns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+/* Code styling */
+:root pre, :root marp-pre {
+  filter: none;
+}
+
+:root code {
+  font-family: "Fira Code";
+  position: relative;
+  // 1.35 = 1 for the text + 0.25 padding up + 0.1 padding down
+  margin-right: 1.35rem;
+  margin-left: 1.35rem;
+  border-radius: 0;
+  border-left: 6px solid var(--current-accent);
+  border-right: 6px solid var(--current-accent);
+
+  @each $language-name, $aliases in hljs.$languages {
+    $alias-list: string.split($aliases, ", ");
+    @each $alias in $alias-list {
+      &.language-#{$alias}::after {
+        content: "#{$language-name}";
+      }
+    }
+  }
+
+  &::after {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-family: "Conduit";
+    font-style: italic;
+    font-weight: bold;
+    background: var(--current-accent);
+    color: var(--cs-background);
+    padding: 0.25em 0.5em 0.1em 0.4em;
+    transform-origin: bottom right;
+    transform: rotate(90deg);
+  }
+}
+
+/* Tables */
+:root table {
+  th, td {
+    border-color: var(--current-accent) !important;
+  }
+}
+
+/* Misc formatting */
+:root center * {
+  text-align: center !important;
+}

@@ -1,0 +1,55 @@
+name: Build and Deploy Slides
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+
+    - name: Prepare Build Directory
+      run: mkdir -p build
+
+    - name: Build slide decks
+      run: |
+        for dir in $(ls decks); do
+          if [ -d "decks/$dir" -a -f "decks/$dir/slides.md" ]; then
+            mkdir -p "build/$dir"
+            docker run \
+              -e MARP_USER=root:root \
+              -v "$PWD:/workspace" \
+              -w /workspace \
+              marpteam/marp-cli:v3.0.2 "decks/$dir/slides.md" -o "build/$dir/index.html"
+            rsync -av --exclude='slides.md' "decks/$dir/" "build/$dir/"
+          fi
+        done
+
+    - name: Generate Index File
+      run: |
+        echo '<!DOCTYPE html>' > build/index.html
+        echo '<html lang="en">' >> build/index.html
+        echo '<head><meta charset="UTF-8"><title>Codestar Slide Decks</title></head>' >> build/index.html
+        echo '<body>' >> build/index.html
+        echo '<h1>Codestar Slide Decks</h1>' >> build/index.html
+        echo '<ul>' >> build/index.html
+        for dir in $(ls build); do
+          if [ -d "build/$dir" -a -f "build/$dir/index.html" ]; then
+            echo "<li><a href='./$dir/index.html'>$dir</a></li>" >> build/index.html
+          fi
+        done
+        echo '</ul>' >> build/index.html
+        echo '</body>' >> build/index.html
+        echo '</html>' >> build/index.html
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v4
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: build
+        publish_branch: gh-pages
