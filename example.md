@@ -106,6 +106,7 @@ Here are some incremental bullets:
 * One
 * Two
 * Three
+
 </div>
 <div>
 
@@ -114,6 +115,7 @@ And numbered:
 1) Foo
 2) Bar
 3) Baz
+
 </div>
 </div>
 
@@ -188,6 +190,7 @@ case class Greeter(name: String) {
 val g = Greeter("world")
 g.salute()
 ```
+
 </div>
 <div>
 
@@ -205,6 +208,7 @@ class Greeter:
 g = Greeter("world")
 g.salute()
 ```
+
 </div>
 </div>
 

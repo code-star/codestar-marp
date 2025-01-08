@@ -12,6 +12,10 @@
 - Syntax highlighting using the Codestar palette, with language labeling
 - Multi-column slides
 
+Quick links:
+- [Check out the example slides here!](https://code-star.github.io/codestar-marp/example/)
+- [Listing of all slide decks](https://code-star.github.io/codestar-marp/)
+
 ## Usage
 
 - Install [Marp for VS Code](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode)
