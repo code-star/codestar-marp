@@ -1,5 +1,6 @@
 ---
 marp: true
+title: New Codestar Marp theme
 theme: codestar
 # class: invert
 paginate: true
