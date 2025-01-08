@@ -194,6 +194,7 @@ section:not(:has(h1)):not(:has(h2)) {
 
 /* Unordered lists */
 :root ul {
+  margin: 0;
   list-style-type: none;
   position: relative;
 
@@ -210,8 +211,10 @@ section:not(:has(h1)):not(:has(h2)) {
 
 /* Ordered lists */
 :root ol, :root.invert ol {
+  margin: 0;
   list-style: none;
   counter-reset: li;
+
   & li {
     counter-increment: li;
 

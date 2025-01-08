@@ -5821,6 +5821,7 @@ section:not(:has(h1)):not(:has(h2)) p, section:not(:has(h1)):not(:has(h2)) h3, s
 
 /* Unordered lists */
 :root ul {
+  margin: 0;
   list-style-type: none;
   position: relative;
 }
@@ -5836,6 +5837,7 @@ section:not(:has(h1)):not(:has(h2)) p, section:not(:has(h1)):not(:has(h2)) h3, s
 
 /* Ordered lists */
 :root ol, :root.invert ol {
+  margin: 0;
   list-style: none;
   counter-reset: li;
 }
