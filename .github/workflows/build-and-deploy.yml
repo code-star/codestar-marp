@@ -44,7 +44,7 @@ jobs:
         echo '<ul>' >> build/index.html
         for dir in $(ls build); do
           if [ -d "build/$dir" -a -f "build/$dir/index.html" ]; then
-            echo "<li><a href='./$dir/index.html'>$dir</a></li>" >> build/index.html
+            echo "<li><a href='./$dir/'>$dir</a></li>" >> build/index.html
           fi
         done
         echo '</ul>' >> build/index.html
