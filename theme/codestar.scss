@@ -56,15 +56,25 @@ $url-base: "https://raw.githubusercontent.com/code-star/codestar-marp/master";
   @for $j from 0 to 30 {
     section[data-marpit-pagination="#{$j * list.length(colors.$cs-colors) + $i}"] {
       --current-accent: #{list.nth(colors.$cs-colors, $i)};
+      $color-name: list.nth(colors.$cs-color-names, $i);
+
       &::before {
         background-image: url(
-          "#{$url-base}/theme/logo/logo_#{list.nth(colors.$cs-color-names, $i)}_light_transparent.png"
+          "#{$url-base}/theme/logo/logo_#{$color-name}_light_transparent.png"
         );
       }
       &.invert::before {
         background-image: url(
-          "#{$url-base}/theme/logo/logo_#{list.nth(colors.$cs-color-names, $i)}_dark_transparent.png"
+          "#{$url-base}/theme/logo/logo_#{$color-name}_dark_transparent.png"
         );
+      }
+      & .thanks {
+        background:
+          url("#{$url-base}/theme/star/#{$color-name}.svg") no-repeat 50% 70% / 60% auto;
+      }
+      &.invert .thanks {
+        background:
+          url("#{$url-base}/theme/star/#{$color-name}_dark.svg") no-repeat 50% 70% / 60% auto;
       }
     }
   }
@@ -262,6 +272,7 @@ section::before {
   bottom: 30px;
   background-repeat: no-repeat;
   background-size: contain;
+  z-index: 1;
 }
 
 /* Block quotes */
@@ -336,4 +347,19 @@ section::before {
 /* Misc formatting */
 :root center * {
   text-align: center !important;
+}
+
+/* Last slide */
+:root .thanks {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  &::before {
+    content: "thank you!";
+    margin-top: 6.5em;
+    font-size: 2em;
+    font-family: Righteous;
+  }
 }

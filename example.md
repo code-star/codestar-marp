@@ -254,3 +254,13 @@ Alignments:
 | :---        |    :----:   |          ---: |
 | Header      | Title       | Here's this   |
 | Paragraph   | Text        | And more      |
+
+---
+
+## Questions time
+
+---
+
+<!-- _footer: '' -->
+
+<div class="thanks"></div>

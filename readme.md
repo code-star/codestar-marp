@@ -51,6 +51,8 @@ Quick links:
 - Make sure to update the QR code's link by replacing `example/` with the name of your presentation's directory.
 - If you prefer a dark theme, uncomment `class: invert` in the front matter.
 - Keep section title cards short, with at most a subtitle.
+- The playful tone of some slides can be changed to formal if that's not your style (for example "any questions?" instead of "questions time").
+- Leave the thank you card.
 - Presenter notes can be added using regular HTML comments, and will be visible on each slide when using the presenter mode. To start presenter mode, move the mouse over the presentation and click the right button on the toolbar.
 - Metadata directives can be changed for a particular slide. For example, if you want a different footer on one slide, include this:
 

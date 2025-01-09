@@ -165,6 +165,12 @@ section[data-marpit-pagination="1"]::before {
 section[data-marpit-pagination="1"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_red_dark_transparent.png");
 }
+section[data-marpit-pagination="1"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/red.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="1"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/red_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="8"] {
   --current-accent: #b03a48;
@@ -174,6 +180,12 @@ section[data-marpit-pagination="8"]::before {
 }
 section[data-marpit-pagination="8"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_red_dark_transparent.png");
+}
+section[data-marpit-pagination="8"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/red.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="8"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/red_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="15"] {
@@ -185,6 +197,12 @@ section[data-marpit-pagination="15"]::before {
 section[data-marpit-pagination="15"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_red_dark_transparent.png");
 }
+section[data-marpit-pagination="15"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/red.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="15"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/red_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="22"] {
   --current-accent: #b03a48;
@@ -194,6 +212,12 @@ section[data-marpit-pagination="22"]::before {
 }
 section[data-marpit-pagination="22"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_red_dark_transparent.png");
+}
+section[data-marpit-pagination="22"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/red.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="22"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/red_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="29"] {
@@ -205,6 +229,12 @@ section[data-marpit-pagination="29"]::before {
 section[data-marpit-pagination="29"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_red_dark_transparent.png");
 }
+section[data-marpit-pagination="29"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/red.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="29"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/red_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="36"] {
   --current-accent: #b03a48;
@@ -214,6 +244,12 @@ section[data-marpit-pagination="36"]::before {
 }
 section[data-marpit-pagination="36"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_red_dark_transparent.png");
+}
+section[data-marpit-pagination="36"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/red.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="36"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/red_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="43"] {
@@ -225,6 +261,12 @@ section[data-marpit-pagination="43"]::before {
 section[data-marpit-pagination="43"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_red_dark_transparent.png");
 }
+section[data-marpit-pagination="43"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/red.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="43"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/red_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="50"] {
   --current-accent: #b03a48;
@@ -234,6 +276,12 @@ section[data-marpit-pagination="50"]::before {
 }
 section[data-marpit-pagination="50"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_red_dark_transparent.png");
+}
+section[data-marpit-pagination="50"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/red.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="50"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/red_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="57"] {
@@ -245,6 +293,12 @@ section[data-marpit-pagination="57"]::before {
 section[data-marpit-pagination="57"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_red_dark_transparent.png");
 }
+section[data-marpit-pagination="57"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/red.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="57"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/red_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="64"] {
   --current-accent: #b03a48;
@@ -254,6 +308,12 @@ section[data-marpit-pagination="64"]::before {
 }
 section[data-marpit-pagination="64"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_red_dark_transparent.png");
+}
+section[data-marpit-pagination="64"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/red.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="64"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/red_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="71"] {
@@ -265,6 +325,12 @@ section[data-marpit-pagination="71"]::before {
 section[data-marpit-pagination="71"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_red_dark_transparent.png");
 }
+section[data-marpit-pagination="71"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/red.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="71"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/red_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="78"] {
   --current-accent: #b03a48;
@@ -274,6 +340,12 @@ section[data-marpit-pagination="78"]::before {
 }
 section[data-marpit-pagination="78"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_red_dark_transparent.png");
+}
+section[data-marpit-pagination="78"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/red.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="78"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/red_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="85"] {
@@ -285,6 +357,12 @@ section[data-marpit-pagination="85"]::before {
 section[data-marpit-pagination="85"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_red_dark_transparent.png");
 }
+section[data-marpit-pagination="85"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/red.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="85"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/red_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="92"] {
   --current-accent: #b03a48;
@@ -294,6 +372,12 @@ section[data-marpit-pagination="92"]::before {
 }
 section[data-marpit-pagination="92"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_red_dark_transparent.png");
+}
+section[data-marpit-pagination="92"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/red.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="92"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/red_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="99"] {
@@ -305,6 +389,12 @@ section[data-marpit-pagination="99"]::before {
 section[data-marpit-pagination="99"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_red_dark_transparent.png");
 }
+section[data-marpit-pagination="99"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/red.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="99"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/red_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="106"] {
   --current-accent: #b03a48;
@@ -314,6 +404,12 @@ section[data-marpit-pagination="106"]::before {
 }
 section[data-marpit-pagination="106"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_red_dark_transparent.png");
+}
+section[data-marpit-pagination="106"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/red.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="106"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/red_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="113"] {
@@ -325,6 +421,12 @@ section[data-marpit-pagination="113"]::before {
 section[data-marpit-pagination="113"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_red_dark_transparent.png");
 }
+section[data-marpit-pagination="113"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/red.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="113"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/red_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="120"] {
   --current-accent: #b03a48;
@@ -334,6 +436,12 @@ section[data-marpit-pagination="120"]::before {
 }
 section[data-marpit-pagination="120"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_red_dark_transparent.png");
+}
+section[data-marpit-pagination="120"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/red.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="120"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/red_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="127"] {
@@ -345,6 +453,12 @@ section[data-marpit-pagination="127"]::before {
 section[data-marpit-pagination="127"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_red_dark_transparent.png");
 }
+section[data-marpit-pagination="127"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/red.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="127"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/red_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="134"] {
   --current-accent: #b03a48;
@@ -354,6 +468,12 @@ section[data-marpit-pagination="134"]::before {
 }
 section[data-marpit-pagination="134"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_red_dark_transparent.png");
+}
+section[data-marpit-pagination="134"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/red.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="134"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/red_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="141"] {
@@ -365,6 +485,12 @@ section[data-marpit-pagination="141"]::before {
 section[data-marpit-pagination="141"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_red_dark_transparent.png");
 }
+section[data-marpit-pagination="141"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/red.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="141"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/red_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="148"] {
   --current-accent: #b03a48;
@@ -374,6 +500,12 @@ section[data-marpit-pagination="148"]::before {
 }
 section[data-marpit-pagination="148"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_red_dark_transparent.png");
+}
+section[data-marpit-pagination="148"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/red.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="148"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/red_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="155"] {
@@ -385,6 +517,12 @@ section[data-marpit-pagination="155"]::before {
 section[data-marpit-pagination="155"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_red_dark_transparent.png");
 }
+section[data-marpit-pagination="155"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/red.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="155"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/red_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="162"] {
   --current-accent: #b03a48;
@@ -394,6 +532,12 @@ section[data-marpit-pagination="162"]::before {
 }
 section[data-marpit-pagination="162"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_red_dark_transparent.png");
+}
+section[data-marpit-pagination="162"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/red.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="162"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/red_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="169"] {
@@ -405,6 +549,12 @@ section[data-marpit-pagination="169"]::before {
 section[data-marpit-pagination="169"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_red_dark_transparent.png");
 }
+section[data-marpit-pagination="169"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/red.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="169"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/red_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="176"] {
   --current-accent: #b03a48;
@@ -414,6 +564,12 @@ section[data-marpit-pagination="176"]::before {
 }
 section[data-marpit-pagination="176"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_red_dark_transparent.png");
+}
+section[data-marpit-pagination="176"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/red.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="176"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/red_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="183"] {
@@ -425,6 +581,12 @@ section[data-marpit-pagination="183"]::before {
 section[data-marpit-pagination="183"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_red_dark_transparent.png");
 }
+section[data-marpit-pagination="183"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/red.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="183"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/red_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="190"] {
   --current-accent: #b03a48;
@@ -434,6 +596,12 @@ section[data-marpit-pagination="190"]::before {
 }
 section[data-marpit-pagination="190"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_red_dark_transparent.png");
+}
+section[data-marpit-pagination="190"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/red.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="190"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/red_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="197"] {
@@ -445,6 +613,12 @@ section[data-marpit-pagination="197"]::before {
 section[data-marpit-pagination="197"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_red_dark_transparent.png");
 }
+section[data-marpit-pagination="197"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/red.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="197"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/red_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="204"] {
   --current-accent: #b03a48;
@@ -454,6 +628,12 @@ section[data-marpit-pagination="204"]::before {
 }
 section[data-marpit-pagination="204"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_red_dark_transparent.png");
+}
+section[data-marpit-pagination="204"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/red.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="204"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/red_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="2"] {
@@ -465,6 +645,12 @@ section[data-marpit-pagination="2"]::before {
 section[data-marpit-pagination="2"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_orange_dark_transparent.png");
 }
+section[data-marpit-pagination="2"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/orange.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="2"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/orange_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="9"] {
   --current-accent: #d4804d;
@@ -474,6 +660,12 @@ section[data-marpit-pagination="9"]::before {
 }
 section[data-marpit-pagination="9"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_orange_dark_transparent.png");
+}
+section[data-marpit-pagination="9"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/orange.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="9"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/orange_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="16"] {
@@ -485,6 +677,12 @@ section[data-marpit-pagination="16"]::before {
 section[data-marpit-pagination="16"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_orange_dark_transparent.png");
 }
+section[data-marpit-pagination="16"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/orange.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="16"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/orange_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="23"] {
   --current-accent: #d4804d;
@@ -494,6 +692,12 @@ section[data-marpit-pagination="23"]::before {
 }
 section[data-marpit-pagination="23"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_orange_dark_transparent.png");
+}
+section[data-marpit-pagination="23"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/orange.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="23"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/orange_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="30"] {
@@ -505,6 +709,12 @@ section[data-marpit-pagination="30"]::before {
 section[data-marpit-pagination="30"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_orange_dark_transparent.png");
 }
+section[data-marpit-pagination="30"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/orange.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="30"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/orange_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="37"] {
   --current-accent: #d4804d;
@@ -514,6 +724,12 @@ section[data-marpit-pagination="37"]::before {
 }
 section[data-marpit-pagination="37"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_orange_dark_transparent.png");
+}
+section[data-marpit-pagination="37"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/orange.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="37"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/orange_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="44"] {
@@ -525,6 +741,12 @@ section[data-marpit-pagination="44"]::before {
 section[data-marpit-pagination="44"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_orange_dark_transparent.png");
 }
+section[data-marpit-pagination="44"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/orange.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="44"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/orange_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="51"] {
   --current-accent: #d4804d;
@@ -534,6 +756,12 @@ section[data-marpit-pagination="51"]::before {
 }
 section[data-marpit-pagination="51"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_orange_dark_transparent.png");
+}
+section[data-marpit-pagination="51"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/orange.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="51"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/orange_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="58"] {
@@ -545,6 +773,12 @@ section[data-marpit-pagination="58"]::before {
 section[data-marpit-pagination="58"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_orange_dark_transparent.png");
 }
+section[data-marpit-pagination="58"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/orange.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="58"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/orange_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="65"] {
   --current-accent: #d4804d;
@@ -554,6 +788,12 @@ section[data-marpit-pagination="65"]::before {
 }
 section[data-marpit-pagination="65"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_orange_dark_transparent.png");
+}
+section[data-marpit-pagination="65"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/orange.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="65"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/orange_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="72"] {
@@ -565,6 +805,12 @@ section[data-marpit-pagination="72"]::before {
 section[data-marpit-pagination="72"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_orange_dark_transparent.png");
 }
+section[data-marpit-pagination="72"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/orange.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="72"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/orange_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="79"] {
   --current-accent: #d4804d;
@@ -574,6 +820,12 @@ section[data-marpit-pagination="79"]::before {
 }
 section[data-marpit-pagination="79"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_orange_dark_transparent.png");
+}
+section[data-marpit-pagination="79"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/orange.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="79"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/orange_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="86"] {
@@ -585,6 +837,12 @@ section[data-marpit-pagination="86"]::before {
 section[data-marpit-pagination="86"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_orange_dark_transparent.png");
 }
+section[data-marpit-pagination="86"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/orange.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="86"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/orange_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="93"] {
   --current-accent: #d4804d;
@@ -594,6 +852,12 @@ section[data-marpit-pagination="93"]::before {
 }
 section[data-marpit-pagination="93"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_orange_dark_transparent.png");
+}
+section[data-marpit-pagination="93"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/orange.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="93"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/orange_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="100"] {
@@ -605,6 +869,12 @@ section[data-marpit-pagination="100"]::before {
 section[data-marpit-pagination="100"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_orange_dark_transparent.png");
 }
+section[data-marpit-pagination="100"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/orange.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="100"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/orange_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="107"] {
   --current-accent: #d4804d;
@@ -614,6 +884,12 @@ section[data-marpit-pagination="107"]::before {
 }
 section[data-marpit-pagination="107"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_orange_dark_transparent.png");
+}
+section[data-marpit-pagination="107"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/orange.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="107"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/orange_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="114"] {
@@ -625,6 +901,12 @@ section[data-marpit-pagination="114"]::before {
 section[data-marpit-pagination="114"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_orange_dark_transparent.png");
 }
+section[data-marpit-pagination="114"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/orange.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="114"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/orange_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="121"] {
   --current-accent: #d4804d;
@@ -634,6 +916,12 @@ section[data-marpit-pagination="121"]::before {
 }
 section[data-marpit-pagination="121"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_orange_dark_transparent.png");
+}
+section[data-marpit-pagination="121"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/orange.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="121"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/orange_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="128"] {
@@ -645,6 +933,12 @@ section[data-marpit-pagination="128"]::before {
 section[data-marpit-pagination="128"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_orange_dark_transparent.png");
 }
+section[data-marpit-pagination="128"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/orange.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="128"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/orange_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="135"] {
   --current-accent: #d4804d;
@@ -654,6 +948,12 @@ section[data-marpit-pagination="135"]::before {
 }
 section[data-marpit-pagination="135"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_orange_dark_transparent.png");
+}
+section[data-marpit-pagination="135"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/orange.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="135"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/orange_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="142"] {
@@ -665,6 +965,12 @@ section[data-marpit-pagination="142"]::before {
 section[data-marpit-pagination="142"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_orange_dark_transparent.png");
 }
+section[data-marpit-pagination="142"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/orange.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="142"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/orange_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="149"] {
   --current-accent: #d4804d;
@@ -674,6 +980,12 @@ section[data-marpit-pagination="149"]::before {
 }
 section[data-marpit-pagination="149"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_orange_dark_transparent.png");
+}
+section[data-marpit-pagination="149"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/orange.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="149"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/orange_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="156"] {
@@ -685,6 +997,12 @@ section[data-marpit-pagination="156"]::before {
 section[data-marpit-pagination="156"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_orange_dark_transparent.png");
 }
+section[data-marpit-pagination="156"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/orange.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="156"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/orange_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="163"] {
   --current-accent: #d4804d;
@@ -694,6 +1012,12 @@ section[data-marpit-pagination="163"]::before {
 }
 section[data-marpit-pagination="163"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_orange_dark_transparent.png");
+}
+section[data-marpit-pagination="163"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/orange.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="163"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/orange_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="170"] {
@@ -705,6 +1029,12 @@ section[data-marpit-pagination="170"]::before {
 section[data-marpit-pagination="170"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_orange_dark_transparent.png");
 }
+section[data-marpit-pagination="170"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/orange.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="170"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/orange_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="177"] {
   --current-accent: #d4804d;
@@ -714,6 +1044,12 @@ section[data-marpit-pagination="177"]::before {
 }
 section[data-marpit-pagination="177"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_orange_dark_transparent.png");
+}
+section[data-marpit-pagination="177"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/orange.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="177"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/orange_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="184"] {
@@ -725,6 +1061,12 @@ section[data-marpit-pagination="184"]::before {
 section[data-marpit-pagination="184"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_orange_dark_transparent.png");
 }
+section[data-marpit-pagination="184"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/orange.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="184"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/orange_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="191"] {
   --current-accent: #d4804d;
@@ -734,6 +1076,12 @@ section[data-marpit-pagination="191"]::before {
 }
 section[data-marpit-pagination="191"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_orange_dark_transparent.png");
+}
+section[data-marpit-pagination="191"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/orange.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="191"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/orange_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="198"] {
@@ -745,6 +1093,12 @@ section[data-marpit-pagination="198"]::before {
 section[data-marpit-pagination="198"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_orange_dark_transparent.png");
 }
+section[data-marpit-pagination="198"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/orange.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="198"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/orange_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="205"] {
   --current-accent: #d4804d;
@@ -754,6 +1108,12 @@ section[data-marpit-pagination="205"]::before {
 }
 section[data-marpit-pagination="205"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_orange_dark_transparent.png");
+}
+section[data-marpit-pagination="205"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/orange.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="205"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/orange_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="3"] {
@@ -765,6 +1125,12 @@ section[data-marpit-pagination="3"]::before {
 section[data-marpit-pagination="3"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_yellow_dark_transparent.png");
 }
+section[data-marpit-pagination="3"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/yellow.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="3"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/yellow_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="10"] {
   --current-accent: #d6b74b;
@@ -774,6 +1140,12 @@ section[data-marpit-pagination="10"]::before {
 }
 section[data-marpit-pagination="10"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_yellow_dark_transparent.png");
+}
+section[data-marpit-pagination="10"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/yellow.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="10"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/yellow_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="17"] {
@@ -785,6 +1157,12 @@ section[data-marpit-pagination="17"]::before {
 section[data-marpit-pagination="17"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_yellow_dark_transparent.png");
 }
+section[data-marpit-pagination="17"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/yellow.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="17"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/yellow_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="24"] {
   --current-accent: #d6b74b;
@@ -794,6 +1172,12 @@ section[data-marpit-pagination="24"]::before {
 }
 section[data-marpit-pagination="24"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_yellow_dark_transparent.png");
+}
+section[data-marpit-pagination="24"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/yellow.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="24"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/yellow_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="31"] {
@@ -805,6 +1189,12 @@ section[data-marpit-pagination="31"]::before {
 section[data-marpit-pagination="31"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_yellow_dark_transparent.png");
 }
+section[data-marpit-pagination="31"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/yellow.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="31"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/yellow_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="38"] {
   --current-accent: #d6b74b;
@@ -814,6 +1204,12 @@ section[data-marpit-pagination="38"]::before {
 }
 section[data-marpit-pagination="38"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_yellow_dark_transparent.png");
+}
+section[data-marpit-pagination="38"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/yellow.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="38"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/yellow_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="45"] {
@@ -825,6 +1221,12 @@ section[data-marpit-pagination="45"]::before {
 section[data-marpit-pagination="45"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_yellow_dark_transparent.png");
 }
+section[data-marpit-pagination="45"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/yellow.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="45"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/yellow_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="52"] {
   --current-accent: #d6b74b;
@@ -834,6 +1236,12 @@ section[data-marpit-pagination="52"]::before {
 }
 section[data-marpit-pagination="52"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_yellow_dark_transparent.png");
+}
+section[data-marpit-pagination="52"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/yellow.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="52"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/yellow_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="59"] {
@@ -845,6 +1253,12 @@ section[data-marpit-pagination="59"]::before {
 section[data-marpit-pagination="59"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_yellow_dark_transparent.png");
 }
+section[data-marpit-pagination="59"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/yellow.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="59"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/yellow_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="66"] {
   --current-accent: #d6b74b;
@@ -854,6 +1268,12 @@ section[data-marpit-pagination="66"]::before {
 }
 section[data-marpit-pagination="66"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_yellow_dark_transparent.png");
+}
+section[data-marpit-pagination="66"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/yellow.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="66"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/yellow_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="73"] {
@@ -865,6 +1285,12 @@ section[data-marpit-pagination="73"]::before {
 section[data-marpit-pagination="73"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_yellow_dark_transparent.png");
 }
+section[data-marpit-pagination="73"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/yellow.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="73"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/yellow_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="80"] {
   --current-accent: #d6b74b;
@@ -874,6 +1300,12 @@ section[data-marpit-pagination="80"]::before {
 }
 section[data-marpit-pagination="80"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_yellow_dark_transparent.png");
+}
+section[data-marpit-pagination="80"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/yellow.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="80"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/yellow_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="87"] {
@@ -885,6 +1317,12 @@ section[data-marpit-pagination="87"]::before {
 section[data-marpit-pagination="87"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_yellow_dark_transparent.png");
 }
+section[data-marpit-pagination="87"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/yellow.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="87"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/yellow_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="94"] {
   --current-accent: #d6b74b;
@@ -894,6 +1332,12 @@ section[data-marpit-pagination="94"]::before {
 }
 section[data-marpit-pagination="94"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_yellow_dark_transparent.png");
+}
+section[data-marpit-pagination="94"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/yellow.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="94"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/yellow_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="101"] {
@@ -905,6 +1349,12 @@ section[data-marpit-pagination="101"]::before {
 section[data-marpit-pagination="101"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_yellow_dark_transparent.png");
 }
+section[data-marpit-pagination="101"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/yellow.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="101"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/yellow_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="108"] {
   --current-accent: #d6b74b;
@@ -914,6 +1364,12 @@ section[data-marpit-pagination="108"]::before {
 }
 section[data-marpit-pagination="108"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_yellow_dark_transparent.png");
+}
+section[data-marpit-pagination="108"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/yellow.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="108"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/yellow_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="115"] {
@@ -925,6 +1381,12 @@ section[data-marpit-pagination="115"]::before {
 section[data-marpit-pagination="115"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_yellow_dark_transparent.png");
 }
+section[data-marpit-pagination="115"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/yellow.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="115"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/yellow_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="122"] {
   --current-accent: #d6b74b;
@@ -934,6 +1396,12 @@ section[data-marpit-pagination="122"]::before {
 }
 section[data-marpit-pagination="122"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_yellow_dark_transparent.png");
+}
+section[data-marpit-pagination="122"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/yellow.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="122"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/yellow_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="129"] {
@@ -945,6 +1413,12 @@ section[data-marpit-pagination="129"]::before {
 section[data-marpit-pagination="129"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_yellow_dark_transparent.png");
 }
+section[data-marpit-pagination="129"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/yellow.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="129"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/yellow_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="136"] {
   --current-accent: #d6b74b;
@@ -954,6 +1428,12 @@ section[data-marpit-pagination="136"]::before {
 }
 section[data-marpit-pagination="136"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_yellow_dark_transparent.png");
+}
+section[data-marpit-pagination="136"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/yellow.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="136"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/yellow_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="143"] {
@@ -965,6 +1445,12 @@ section[data-marpit-pagination="143"]::before {
 section[data-marpit-pagination="143"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_yellow_dark_transparent.png");
 }
+section[data-marpit-pagination="143"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/yellow.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="143"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/yellow_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="150"] {
   --current-accent: #d6b74b;
@@ -974,6 +1460,12 @@ section[data-marpit-pagination="150"]::before {
 }
 section[data-marpit-pagination="150"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_yellow_dark_transparent.png");
+}
+section[data-marpit-pagination="150"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/yellow.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="150"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/yellow_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="157"] {
@@ -985,6 +1477,12 @@ section[data-marpit-pagination="157"]::before {
 section[data-marpit-pagination="157"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_yellow_dark_transparent.png");
 }
+section[data-marpit-pagination="157"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/yellow.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="157"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/yellow_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="164"] {
   --current-accent: #d6b74b;
@@ -994,6 +1492,12 @@ section[data-marpit-pagination="164"]::before {
 }
 section[data-marpit-pagination="164"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_yellow_dark_transparent.png");
+}
+section[data-marpit-pagination="164"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/yellow.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="164"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/yellow_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="171"] {
@@ -1005,6 +1509,12 @@ section[data-marpit-pagination="171"]::before {
 section[data-marpit-pagination="171"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_yellow_dark_transparent.png");
 }
+section[data-marpit-pagination="171"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/yellow.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="171"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/yellow_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="178"] {
   --current-accent: #d6b74b;
@@ -1014,6 +1524,12 @@ section[data-marpit-pagination="178"]::before {
 }
 section[data-marpit-pagination="178"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_yellow_dark_transparent.png");
+}
+section[data-marpit-pagination="178"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/yellow.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="178"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/yellow_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="185"] {
@@ -1025,6 +1541,12 @@ section[data-marpit-pagination="185"]::before {
 section[data-marpit-pagination="185"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_yellow_dark_transparent.png");
 }
+section[data-marpit-pagination="185"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/yellow.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="185"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/yellow_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="192"] {
   --current-accent: #d6b74b;
@@ -1034,6 +1556,12 @@ section[data-marpit-pagination="192"]::before {
 }
 section[data-marpit-pagination="192"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_yellow_dark_transparent.png");
+}
+section[data-marpit-pagination="192"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/yellow.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="192"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/yellow_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="199"] {
@@ -1045,6 +1573,12 @@ section[data-marpit-pagination="199"]::before {
 section[data-marpit-pagination="199"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_yellow_dark_transparent.png");
 }
+section[data-marpit-pagination="199"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/yellow.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="199"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/yellow_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="206"] {
   --current-accent: #d6b74b;
@@ -1054,6 +1588,12 @@ section[data-marpit-pagination="206"]::before {
 }
 section[data-marpit-pagination="206"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_yellow_dark_transparent.png");
+}
+section[data-marpit-pagination="206"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/yellow.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="206"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/yellow_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="4"] {
@@ -1065,6 +1605,12 @@ section[data-marpit-pagination="4"]::before {
 section[data-marpit-pagination="4"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_green_dark_transparent.png");
 }
+section[data-marpit-pagination="4"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/green.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="4"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/green_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="11"] {
   --current-accent: #3e7a4c;
@@ -1074,6 +1620,12 @@ section[data-marpit-pagination="11"]::before {
 }
 section[data-marpit-pagination="11"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_green_dark_transparent.png");
+}
+section[data-marpit-pagination="11"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/green.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="11"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/green_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="18"] {
@@ -1085,6 +1637,12 @@ section[data-marpit-pagination="18"]::before {
 section[data-marpit-pagination="18"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_green_dark_transparent.png");
 }
+section[data-marpit-pagination="18"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/green.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="18"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/green_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="25"] {
   --current-accent: #3e7a4c;
@@ -1094,6 +1652,12 @@ section[data-marpit-pagination="25"]::before {
 }
 section[data-marpit-pagination="25"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_green_dark_transparent.png");
+}
+section[data-marpit-pagination="25"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/green.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="25"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/green_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="32"] {
@@ -1105,6 +1669,12 @@ section[data-marpit-pagination="32"]::before {
 section[data-marpit-pagination="32"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_green_dark_transparent.png");
 }
+section[data-marpit-pagination="32"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/green.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="32"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/green_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="39"] {
   --current-accent: #3e7a4c;
@@ -1114,6 +1684,12 @@ section[data-marpit-pagination="39"]::before {
 }
 section[data-marpit-pagination="39"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_green_dark_transparent.png");
+}
+section[data-marpit-pagination="39"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/green.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="39"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/green_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="46"] {
@@ -1125,6 +1701,12 @@ section[data-marpit-pagination="46"]::before {
 section[data-marpit-pagination="46"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_green_dark_transparent.png");
 }
+section[data-marpit-pagination="46"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/green.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="46"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/green_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="53"] {
   --current-accent: #3e7a4c;
@@ -1134,6 +1716,12 @@ section[data-marpit-pagination="53"]::before {
 }
 section[data-marpit-pagination="53"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_green_dark_transparent.png");
+}
+section[data-marpit-pagination="53"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/green.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="53"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/green_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="60"] {
@@ -1145,6 +1733,12 @@ section[data-marpit-pagination="60"]::before {
 section[data-marpit-pagination="60"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_green_dark_transparent.png");
 }
+section[data-marpit-pagination="60"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/green.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="60"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/green_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="67"] {
   --current-accent: #3e7a4c;
@@ -1154,6 +1748,12 @@ section[data-marpit-pagination="67"]::before {
 }
 section[data-marpit-pagination="67"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_green_dark_transparent.png");
+}
+section[data-marpit-pagination="67"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/green.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="67"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/green_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="74"] {
@@ -1165,6 +1765,12 @@ section[data-marpit-pagination="74"]::before {
 section[data-marpit-pagination="74"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_green_dark_transparent.png");
 }
+section[data-marpit-pagination="74"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/green.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="74"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/green_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="81"] {
   --current-accent: #3e7a4c;
@@ -1174,6 +1780,12 @@ section[data-marpit-pagination="81"]::before {
 }
 section[data-marpit-pagination="81"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_green_dark_transparent.png");
+}
+section[data-marpit-pagination="81"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/green.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="81"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/green_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="88"] {
@@ -1185,6 +1797,12 @@ section[data-marpit-pagination="88"]::before {
 section[data-marpit-pagination="88"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_green_dark_transparent.png");
 }
+section[data-marpit-pagination="88"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/green.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="88"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/green_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="95"] {
   --current-accent: #3e7a4c;
@@ -1194,6 +1812,12 @@ section[data-marpit-pagination="95"]::before {
 }
 section[data-marpit-pagination="95"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_green_dark_transparent.png");
+}
+section[data-marpit-pagination="95"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/green.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="95"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/green_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="102"] {
@@ -1205,6 +1829,12 @@ section[data-marpit-pagination="102"]::before {
 section[data-marpit-pagination="102"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_green_dark_transparent.png");
 }
+section[data-marpit-pagination="102"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/green.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="102"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/green_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="109"] {
   --current-accent: #3e7a4c;
@@ -1214,6 +1844,12 @@ section[data-marpit-pagination="109"]::before {
 }
 section[data-marpit-pagination="109"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_green_dark_transparent.png");
+}
+section[data-marpit-pagination="109"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/green.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="109"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/green_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="116"] {
@@ -1225,6 +1861,12 @@ section[data-marpit-pagination="116"]::before {
 section[data-marpit-pagination="116"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_green_dark_transparent.png");
 }
+section[data-marpit-pagination="116"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/green.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="116"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/green_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="123"] {
   --current-accent: #3e7a4c;
@@ -1234,6 +1876,12 @@ section[data-marpit-pagination="123"]::before {
 }
 section[data-marpit-pagination="123"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_green_dark_transparent.png");
+}
+section[data-marpit-pagination="123"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/green.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="123"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/green_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="130"] {
@@ -1245,6 +1893,12 @@ section[data-marpit-pagination="130"]::before {
 section[data-marpit-pagination="130"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_green_dark_transparent.png");
 }
+section[data-marpit-pagination="130"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/green.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="130"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/green_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="137"] {
   --current-accent: #3e7a4c;
@@ -1254,6 +1908,12 @@ section[data-marpit-pagination="137"]::before {
 }
 section[data-marpit-pagination="137"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_green_dark_transparent.png");
+}
+section[data-marpit-pagination="137"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/green.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="137"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/green_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="144"] {
@@ -1265,6 +1925,12 @@ section[data-marpit-pagination="144"]::before {
 section[data-marpit-pagination="144"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_green_dark_transparent.png");
 }
+section[data-marpit-pagination="144"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/green.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="144"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/green_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="151"] {
   --current-accent: #3e7a4c;
@@ -1274,6 +1940,12 @@ section[data-marpit-pagination="151"]::before {
 }
 section[data-marpit-pagination="151"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_green_dark_transparent.png");
+}
+section[data-marpit-pagination="151"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/green.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="151"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/green_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="158"] {
@@ -1285,6 +1957,12 @@ section[data-marpit-pagination="158"]::before {
 section[data-marpit-pagination="158"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_green_dark_transparent.png");
 }
+section[data-marpit-pagination="158"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/green.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="158"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/green_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="165"] {
   --current-accent: #3e7a4c;
@@ -1294,6 +1972,12 @@ section[data-marpit-pagination="165"]::before {
 }
 section[data-marpit-pagination="165"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_green_dark_transparent.png");
+}
+section[data-marpit-pagination="165"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/green.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="165"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/green_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="172"] {
@@ -1305,6 +1989,12 @@ section[data-marpit-pagination="172"]::before {
 section[data-marpit-pagination="172"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_green_dark_transparent.png");
 }
+section[data-marpit-pagination="172"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/green.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="172"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/green_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="179"] {
   --current-accent: #3e7a4c;
@@ -1314,6 +2004,12 @@ section[data-marpit-pagination="179"]::before {
 }
 section[data-marpit-pagination="179"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_green_dark_transparent.png");
+}
+section[data-marpit-pagination="179"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/green.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="179"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/green_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="186"] {
@@ -1325,6 +2021,12 @@ section[data-marpit-pagination="186"]::before {
 section[data-marpit-pagination="186"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_green_dark_transparent.png");
 }
+section[data-marpit-pagination="186"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/green.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="186"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/green_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="193"] {
   --current-accent: #3e7a4c;
@@ -1334,6 +2036,12 @@ section[data-marpit-pagination="193"]::before {
 }
 section[data-marpit-pagination="193"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_green_dark_transparent.png");
+}
+section[data-marpit-pagination="193"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/green.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="193"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/green_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="200"] {
@@ -1345,6 +2053,12 @@ section[data-marpit-pagination="200"]::before {
 section[data-marpit-pagination="200"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_green_dark_transparent.png");
 }
+section[data-marpit-pagination="200"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/green.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="200"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/green_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="207"] {
   --current-accent: #3e7a4c;
@@ -1354,6 +2068,12 @@ section[data-marpit-pagination="207"]::before {
 }
 section[data-marpit-pagination="207"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_green_dark_transparent.png");
+}
+section[data-marpit-pagination="207"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/green.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="207"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/green_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="5"] {
@@ -1365,6 +2085,12 @@ section[data-marpit-pagination="5"]::before {
 section[data-marpit-pagination="5"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_blue_dark_transparent.png");
 }
+section[data-marpit-pagination="5"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/blue.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="5"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/blue_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="12"] {
   --current-accent: #3266A3;
@@ -1374,6 +2100,12 @@ section[data-marpit-pagination="12"]::before {
 }
 section[data-marpit-pagination="12"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_blue_dark_transparent.png");
+}
+section[data-marpit-pagination="12"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/blue.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="12"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/blue_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="19"] {
@@ -1385,6 +2117,12 @@ section[data-marpit-pagination="19"]::before {
 section[data-marpit-pagination="19"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_blue_dark_transparent.png");
 }
+section[data-marpit-pagination="19"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/blue.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="19"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/blue_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="26"] {
   --current-accent: #3266A3;
@@ -1394,6 +2132,12 @@ section[data-marpit-pagination="26"]::before {
 }
 section[data-marpit-pagination="26"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_blue_dark_transparent.png");
+}
+section[data-marpit-pagination="26"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/blue.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="26"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/blue_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="33"] {
@@ -1405,6 +2149,12 @@ section[data-marpit-pagination="33"]::before {
 section[data-marpit-pagination="33"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_blue_dark_transparent.png");
 }
+section[data-marpit-pagination="33"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/blue.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="33"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/blue_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="40"] {
   --current-accent: #3266A3;
@@ -1414,6 +2164,12 @@ section[data-marpit-pagination="40"]::before {
 }
 section[data-marpit-pagination="40"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_blue_dark_transparent.png");
+}
+section[data-marpit-pagination="40"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/blue.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="40"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/blue_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="47"] {
@@ -1425,6 +2181,12 @@ section[data-marpit-pagination="47"]::before {
 section[data-marpit-pagination="47"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_blue_dark_transparent.png");
 }
+section[data-marpit-pagination="47"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/blue.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="47"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/blue_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="54"] {
   --current-accent: #3266A3;
@@ -1434,6 +2196,12 @@ section[data-marpit-pagination="54"]::before {
 }
 section[data-marpit-pagination="54"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_blue_dark_transparent.png");
+}
+section[data-marpit-pagination="54"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/blue.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="54"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/blue_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="61"] {
@@ -1445,6 +2213,12 @@ section[data-marpit-pagination="61"]::before {
 section[data-marpit-pagination="61"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_blue_dark_transparent.png");
 }
+section[data-marpit-pagination="61"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/blue.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="61"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/blue_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="68"] {
   --current-accent: #3266A3;
@@ -1454,6 +2228,12 @@ section[data-marpit-pagination="68"]::before {
 }
 section[data-marpit-pagination="68"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_blue_dark_transparent.png");
+}
+section[data-marpit-pagination="68"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/blue.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="68"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/blue_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="75"] {
@@ -1465,6 +2245,12 @@ section[data-marpit-pagination="75"]::before {
 section[data-marpit-pagination="75"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_blue_dark_transparent.png");
 }
+section[data-marpit-pagination="75"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/blue.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="75"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/blue_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="82"] {
   --current-accent: #3266A3;
@@ -1474,6 +2260,12 @@ section[data-marpit-pagination="82"]::before {
 }
 section[data-marpit-pagination="82"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_blue_dark_transparent.png");
+}
+section[data-marpit-pagination="82"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/blue.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="82"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/blue_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="89"] {
@@ -1485,6 +2277,12 @@ section[data-marpit-pagination="89"]::before {
 section[data-marpit-pagination="89"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_blue_dark_transparent.png");
 }
+section[data-marpit-pagination="89"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/blue.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="89"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/blue_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="96"] {
   --current-accent: #3266A3;
@@ -1494,6 +2292,12 @@ section[data-marpit-pagination="96"]::before {
 }
 section[data-marpit-pagination="96"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_blue_dark_transparent.png");
+}
+section[data-marpit-pagination="96"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/blue.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="96"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/blue_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="103"] {
@@ -1505,6 +2309,12 @@ section[data-marpit-pagination="103"]::before {
 section[data-marpit-pagination="103"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_blue_dark_transparent.png");
 }
+section[data-marpit-pagination="103"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/blue.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="103"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/blue_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="110"] {
   --current-accent: #3266A3;
@@ -1514,6 +2324,12 @@ section[data-marpit-pagination="110"]::before {
 }
 section[data-marpit-pagination="110"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_blue_dark_transparent.png");
+}
+section[data-marpit-pagination="110"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/blue.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="110"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/blue_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="117"] {
@@ -1525,6 +2341,12 @@ section[data-marpit-pagination="117"]::before {
 section[data-marpit-pagination="117"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_blue_dark_transparent.png");
 }
+section[data-marpit-pagination="117"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/blue.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="117"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/blue_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="124"] {
   --current-accent: #3266A3;
@@ -1534,6 +2356,12 @@ section[data-marpit-pagination="124"]::before {
 }
 section[data-marpit-pagination="124"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_blue_dark_transparent.png");
+}
+section[data-marpit-pagination="124"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/blue.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="124"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/blue_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="131"] {
@@ -1545,6 +2373,12 @@ section[data-marpit-pagination="131"]::before {
 section[data-marpit-pagination="131"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_blue_dark_transparent.png");
 }
+section[data-marpit-pagination="131"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/blue.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="131"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/blue_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="138"] {
   --current-accent: #3266A3;
@@ -1554,6 +2388,12 @@ section[data-marpit-pagination="138"]::before {
 }
 section[data-marpit-pagination="138"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_blue_dark_transparent.png");
+}
+section[data-marpit-pagination="138"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/blue.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="138"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/blue_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="145"] {
@@ -1565,6 +2405,12 @@ section[data-marpit-pagination="145"]::before {
 section[data-marpit-pagination="145"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_blue_dark_transparent.png");
 }
+section[data-marpit-pagination="145"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/blue.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="145"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/blue_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="152"] {
   --current-accent: #3266A3;
@@ -1574,6 +2420,12 @@ section[data-marpit-pagination="152"]::before {
 }
 section[data-marpit-pagination="152"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_blue_dark_transparent.png");
+}
+section[data-marpit-pagination="152"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/blue.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="152"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/blue_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="159"] {
@@ -1585,6 +2437,12 @@ section[data-marpit-pagination="159"]::before {
 section[data-marpit-pagination="159"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_blue_dark_transparent.png");
 }
+section[data-marpit-pagination="159"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/blue.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="159"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/blue_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="166"] {
   --current-accent: #3266A3;
@@ -1594,6 +2452,12 @@ section[data-marpit-pagination="166"]::before {
 }
 section[data-marpit-pagination="166"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_blue_dark_transparent.png");
+}
+section[data-marpit-pagination="166"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/blue.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="166"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/blue_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="173"] {
@@ -1605,6 +2469,12 @@ section[data-marpit-pagination="173"]::before {
 section[data-marpit-pagination="173"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_blue_dark_transparent.png");
 }
+section[data-marpit-pagination="173"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/blue.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="173"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/blue_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="180"] {
   --current-accent: #3266A3;
@@ -1614,6 +2484,12 @@ section[data-marpit-pagination="180"]::before {
 }
 section[data-marpit-pagination="180"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_blue_dark_transparent.png");
+}
+section[data-marpit-pagination="180"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/blue.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="180"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/blue_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="187"] {
@@ -1625,6 +2501,12 @@ section[data-marpit-pagination="187"]::before {
 section[data-marpit-pagination="187"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_blue_dark_transparent.png");
 }
+section[data-marpit-pagination="187"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/blue.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="187"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/blue_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="194"] {
   --current-accent: #3266A3;
@@ -1634,6 +2516,12 @@ section[data-marpit-pagination="194"]::before {
 }
 section[data-marpit-pagination="194"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_blue_dark_transparent.png");
+}
+section[data-marpit-pagination="194"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/blue.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="194"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/blue_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="201"] {
@@ -1645,6 +2533,12 @@ section[data-marpit-pagination="201"]::before {
 section[data-marpit-pagination="201"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_blue_dark_transparent.png");
 }
+section[data-marpit-pagination="201"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/blue.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="201"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/blue_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="208"] {
   --current-accent: #3266A3;
@@ -1654,6 +2548,12 @@ section[data-marpit-pagination="208"]::before {
 }
 section[data-marpit-pagination="208"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_blue_dark_transparent.png");
+}
+section[data-marpit-pagination="208"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/blue.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="208"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/blue_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="6"] {
@@ -1665,6 +2565,12 @@ section[data-marpit-pagination="6"]::before {
 section[data-marpit-pagination="6"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_purple_dark_transparent.png");
 }
+section[data-marpit-pagination="6"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/purple.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="6"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/purple_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="13"] {
   --current-accent: #915394;
@@ -1674,6 +2580,12 @@ section[data-marpit-pagination="13"]::before {
 }
 section[data-marpit-pagination="13"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_purple_dark_transparent.png");
+}
+section[data-marpit-pagination="13"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/purple.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="13"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/purple_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="20"] {
@@ -1685,6 +2597,12 @@ section[data-marpit-pagination="20"]::before {
 section[data-marpit-pagination="20"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_purple_dark_transparent.png");
 }
+section[data-marpit-pagination="20"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/purple.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="20"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/purple_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="27"] {
   --current-accent: #915394;
@@ -1694,6 +2612,12 @@ section[data-marpit-pagination="27"]::before {
 }
 section[data-marpit-pagination="27"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_purple_dark_transparent.png");
+}
+section[data-marpit-pagination="27"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/purple.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="27"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/purple_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="34"] {
@@ -1705,6 +2629,12 @@ section[data-marpit-pagination="34"]::before {
 section[data-marpit-pagination="34"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_purple_dark_transparent.png");
 }
+section[data-marpit-pagination="34"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/purple.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="34"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/purple_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="41"] {
   --current-accent: #915394;
@@ -1714,6 +2644,12 @@ section[data-marpit-pagination="41"]::before {
 }
 section[data-marpit-pagination="41"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_purple_dark_transparent.png");
+}
+section[data-marpit-pagination="41"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/purple.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="41"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/purple_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="48"] {
@@ -1725,6 +2661,12 @@ section[data-marpit-pagination="48"]::before {
 section[data-marpit-pagination="48"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_purple_dark_transparent.png");
 }
+section[data-marpit-pagination="48"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/purple.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="48"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/purple_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="55"] {
   --current-accent: #915394;
@@ -1734,6 +2676,12 @@ section[data-marpit-pagination="55"]::before {
 }
 section[data-marpit-pagination="55"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_purple_dark_transparent.png");
+}
+section[data-marpit-pagination="55"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/purple.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="55"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/purple_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="62"] {
@@ -1745,6 +2693,12 @@ section[data-marpit-pagination="62"]::before {
 section[data-marpit-pagination="62"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_purple_dark_transparent.png");
 }
+section[data-marpit-pagination="62"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/purple.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="62"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/purple_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="69"] {
   --current-accent: #915394;
@@ -1754,6 +2708,12 @@ section[data-marpit-pagination="69"]::before {
 }
 section[data-marpit-pagination="69"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_purple_dark_transparent.png");
+}
+section[data-marpit-pagination="69"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/purple.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="69"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/purple_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="76"] {
@@ -1765,6 +2725,12 @@ section[data-marpit-pagination="76"]::before {
 section[data-marpit-pagination="76"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_purple_dark_transparent.png");
 }
+section[data-marpit-pagination="76"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/purple.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="76"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/purple_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="83"] {
   --current-accent: #915394;
@@ -1774,6 +2740,12 @@ section[data-marpit-pagination="83"]::before {
 }
 section[data-marpit-pagination="83"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_purple_dark_transparent.png");
+}
+section[data-marpit-pagination="83"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/purple.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="83"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/purple_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="90"] {
@@ -1785,6 +2757,12 @@ section[data-marpit-pagination="90"]::before {
 section[data-marpit-pagination="90"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_purple_dark_transparent.png");
 }
+section[data-marpit-pagination="90"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/purple.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="90"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/purple_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="97"] {
   --current-accent: #915394;
@@ -1794,6 +2772,12 @@ section[data-marpit-pagination="97"]::before {
 }
 section[data-marpit-pagination="97"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_purple_dark_transparent.png");
+}
+section[data-marpit-pagination="97"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/purple.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="97"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/purple_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="104"] {
@@ -1805,6 +2789,12 @@ section[data-marpit-pagination="104"]::before {
 section[data-marpit-pagination="104"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_purple_dark_transparent.png");
 }
+section[data-marpit-pagination="104"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/purple.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="104"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/purple_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="111"] {
   --current-accent: #915394;
@@ -1814,6 +2804,12 @@ section[data-marpit-pagination="111"]::before {
 }
 section[data-marpit-pagination="111"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_purple_dark_transparent.png");
+}
+section[data-marpit-pagination="111"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/purple.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="111"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/purple_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="118"] {
@@ -1825,6 +2821,12 @@ section[data-marpit-pagination="118"]::before {
 section[data-marpit-pagination="118"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_purple_dark_transparent.png");
 }
+section[data-marpit-pagination="118"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/purple.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="118"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/purple_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="125"] {
   --current-accent: #915394;
@@ -1834,6 +2836,12 @@ section[data-marpit-pagination="125"]::before {
 }
 section[data-marpit-pagination="125"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_purple_dark_transparent.png");
+}
+section[data-marpit-pagination="125"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/purple.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="125"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/purple_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="132"] {
@@ -1845,6 +2853,12 @@ section[data-marpit-pagination="132"]::before {
 section[data-marpit-pagination="132"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_purple_dark_transparent.png");
 }
+section[data-marpit-pagination="132"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/purple.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="132"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/purple_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="139"] {
   --current-accent: #915394;
@@ -1854,6 +2868,12 @@ section[data-marpit-pagination="139"]::before {
 }
 section[data-marpit-pagination="139"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_purple_dark_transparent.png");
+}
+section[data-marpit-pagination="139"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/purple.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="139"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/purple_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="146"] {
@@ -1865,6 +2885,12 @@ section[data-marpit-pagination="146"]::before {
 section[data-marpit-pagination="146"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_purple_dark_transparent.png");
 }
+section[data-marpit-pagination="146"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/purple.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="146"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/purple_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="153"] {
   --current-accent: #915394;
@@ -1874,6 +2900,12 @@ section[data-marpit-pagination="153"]::before {
 }
 section[data-marpit-pagination="153"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_purple_dark_transparent.png");
+}
+section[data-marpit-pagination="153"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/purple.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="153"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/purple_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="160"] {
@@ -1885,6 +2917,12 @@ section[data-marpit-pagination="160"]::before {
 section[data-marpit-pagination="160"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_purple_dark_transparent.png");
 }
+section[data-marpit-pagination="160"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/purple.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="160"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/purple_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="167"] {
   --current-accent: #915394;
@@ -1894,6 +2932,12 @@ section[data-marpit-pagination="167"]::before {
 }
 section[data-marpit-pagination="167"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_purple_dark_transparent.png");
+}
+section[data-marpit-pagination="167"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/purple.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="167"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/purple_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="174"] {
@@ -1905,6 +2949,12 @@ section[data-marpit-pagination="174"]::before {
 section[data-marpit-pagination="174"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_purple_dark_transparent.png");
 }
+section[data-marpit-pagination="174"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/purple.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="174"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/purple_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="181"] {
   --current-accent: #915394;
@@ -1914,6 +2964,12 @@ section[data-marpit-pagination="181"]::before {
 }
 section[data-marpit-pagination="181"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_purple_dark_transparent.png");
+}
+section[data-marpit-pagination="181"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/purple.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="181"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/purple_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="188"] {
@@ -1925,6 +2981,12 @@ section[data-marpit-pagination="188"]::before {
 section[data-marpit-pagination="188"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_purple_dark_transparent.png");
 }
+section[data-marpit-pagination="188"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/purple.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="188"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/purple_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="195"] {
   --current-accent: #915394;
@@ -1934,6 +2996,12 @@ section[data-marpit-pagination="195"]::before {
 }
 section[data-marpit-pagination="195"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_purple_dark_transparent.png");
+}
+section[data-marpit-pagination="195"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/purple.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="195"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/purple_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="202"] {
@@ -1945,6 +3013,12 @@ section[data-marpit-pagination="202"]::before {
 section[data-marpit-pagination="202"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_purple_dark_transparent.png");
 }
+section[data-marpit-pagination="202"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/purple.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="202"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/purple_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="209"] {
   --current-accent: #915394;
@@ -1954,6 +3028,12 @@ section[data-marpit-pagination="209"]::before {
 }
 section[data-marpit-pagination="209"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_purple_dark_transparent.png");
+}
+section[data-marpit-pagination="209"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/purple.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="209"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/purple_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="7"] {
@@ -1965,6 +3045,12 @@ section[data-marpit-pagination="7"]::before {
 section[data-marpit-pagination="7"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_pink_dark_transparent.png");
 }
+section[data-marpit-pagination="7"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/pink.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="7"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/pink_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="14"] {
   --current-accent: #d980a0;
@@ -1974,6 +3060,12 @@ section[data-marpit-pagination="14"]::before {
 }
 section[data-marpit-pagination="14"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_pink_dark_transparent.png");
+}
+section[data-marpit-pagination="14"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/pink.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="14"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/pink_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="21"] {
@@ -1985,6 +3077,12 @@ section[data-marpit-pagination="21"]::before {
 section[data-marpit-pagination="21"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_pink_dark_transparent.png");
 }
+section[data-marpit-pagination="21"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/pink.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="21"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/pink_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="28"] {
   --current-accent: #d980a0;
@@ -1994,6 +3092,12 @@ section[data-marpit-pagination="28"]::before {
 }
 section[data-marpit-pagination="28"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_pink_dark_transparent.png");
+}
+section[data-marpit-pagination="28"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/pink.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="28"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/pink_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="35"] {
@@ -2005,6 +3109,12 @@ section[data-marpit-pagination="35"]::before {
 section[data-marpit-pagination="35"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_pink_dark_transparent.png");
 }
+section[data-marpit-pagination="35"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/pink.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="35"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/pink_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="42"] {
   --current-accent: #d980a0;
@@ -2014,6 +3124,12 @@ section[data-marpit-pagination="42"]::before {
 }
 section[data-marpit-pagination="42"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_pink_dark_transparent.png");
+}
+section[data-marpit-pagination="42"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/pink.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="42"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/pink_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="49"] {
@@ -2025,6 +3141,12 @@ section[data-marpit-pagination="49"]::before {
 section[data-marpit-pagination="49"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_pink_dark_transparent.png");
 }
+section[data-marpit-pagination="49"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/pink.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="49"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/pink_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="56"] {
   --current-accent: #d980a0;
@@ -2034,6 +3156,12 @@ section[data-marpit-pagination="56"]::before {
 }
 section[data-marpit-pagination="56"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_pink_dark_transparent.png");
+}
+section[data-marpit-pagination="56"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/pink.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="56"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/pink_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="63"] {
@@ -2045,6 +3173,12 @@ section[data-marpit-pagination="63"]::before {
 section[data-marpit-pagination="63"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_pink_dark_transparent.png");
 }
+section[data-marpit-pagination="63"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/pink.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="63"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/pink_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="70"] {
   --current-accent: #d980a0;
@@ -2054,6 +3188,12 @@ section[data-marpit-pagination="70"]::before {
 }
 section[data-marpit-pagination="70"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_pink_dark_transparent.png");
+}
+section[data-marpit-pagination="70"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/pink.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="70"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/pink_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="77"] {
@@ -2065,6 +3205,12 @@ section[data-marpit-pagination="77"]::before {
 section[data-marpit-pagination="77"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_pink_dark_transparent.png");
 }
+section[data-marpit-pagination="77"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/pink.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="77"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/pink_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="84"] {
   --current-accent: #d980a0;
@@ -2074,6 +3220,12 @@ section[data-marpit-pagination="84"]::before {
 }
 section[data-marpit-pagination="84"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_pink_dark_transparent.png");
+}
+section[data-marpit-pagination="84"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/pink.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="84"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/pink_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="91"] {
@@ -2085,6 +3237,12 @@ section[data-marpit-pagination="91"]::before {
 section[data-marpit-pagination="91"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_pink_dark_transparent.png");
 }
+section[data-marpit-pagination="91"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/pink.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="91"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/pink_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="98"] {
   --current-accent: #d980a0;
@@ -2094,6 +3252,12 @@ section[data-marpit-pagination="98"]::before {
 }
 section[data-marpit-pagination="98"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_pink_dark_transparent.png");
+}
+section[data-marpit-pagination="98"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/pink.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="98"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/pink_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="105"] {
@@ -2105,6 +3269,12 @@ section[data-marpit-pagination="105"]::before {
 section[data-marpit-pagination="105"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_pink_dark_transparent.png");
 }
+section[data-marpit-pagination="105"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/pink.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="105"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/pink_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="112"] {
   --current-accent: #d980a0;
@@ -2114,6 +3284,12 @@ section[data-marpit-pagination="112"]::before {
 }
 section[data-marpit-pagination="112"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_pink_dark_transparent.png");
+}
+section[data-marpit-pagination="112"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/pink.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="112"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/pink_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="119"] {
@@ -2125,6 +3301,12 @@ section[data-marpit-pagination="119"]::before {
 section[data-marpit-pagination="119"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_pink_dark_transparent.png");
 }
+section[data-marpit-pagination="119"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/pink.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="119"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/pink_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="126"] {
   --current-accent: #d980a0;
@@ -2134,6 +3316,12 @@ section[data-marpit-pagination="126"]::before {
 }
 section[data-marpit-pagination="126"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_pink_dark_transparent.png");
+}
+section[data-marpit-pagination="126"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/pink.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="126"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/pink_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="133"] {
@@ -2145,6 +3333,12 @@ section[data-marpit-pagination="133"]::before {
 section[data-marpit-pagination="133"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_pink_dark_transparent.png");
 }
+section[data-marpit-pagination="133"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/pink.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="133"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/pink_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="140"] {
   --current-accent: #d980a0;
@@ -2154,6 +3348,12 @@ section[data-marpit-pagination="140"]::before {
 }
 section[data-marpit-pagination="140"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_pink_dark_transparent.png");
+}
+section[data-marpit-pagination="140"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/pink.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="140"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/pink_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="147"] {
@@ -2165,6 +3365,12 @@ section[data-marpit-pagination="147"]::before {
 section[data-marpit-pagination="147"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_pink_dark_transparent.png");
 }
+section[data-marpit-pagination="147"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/pink.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="147"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/pink_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="154"] {
   --current-accent: #d980a0;
@@ -2174,6 +3380,12 @@ section[data-marpit-pagination="154"]::before {
 }
 section[data-marpit-pagination="154"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_pink_dark_transparent.png");
+}
+section[data-marpit-pagination="154"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/pink.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="154"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/pink_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="161"] {
@@ -2185,6 +3397,12 @@ section[data-marpit-pagination="161"]::before {
 section[data-marpit-pagination="161"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_pink_dark_transparent.png");
 }
+section[data-marpit-pagination="161"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/pink.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="161"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/pink_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="168"] {
   --current-accent: #d980a0;
@@ -2194,6 +3412,12 @@ section[data-marpit-pagination="168"]::before {
 }
 section[data-marpit-pagination="168"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_pink_dark_transparent.png");
+}
+section[data-marpit-pagination="168"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/pink.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="168"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/pink_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="175"] {
@@ -2205,6 +3429,12 @@ section[data-marpit-pagination="175"]::before {
 section[data-marpit-pagination="175"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_pink_dark_transparent.png");
 }
+section[data-marpit-pagination="175"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/pink.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="175"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/pink_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="182"] {
   --current-accent: #d980a0;
@@ -2214,6 +3444,12 @@ section[data-marpit-pagination="182"]::before {
 }
 section[data-marpit-pagination="182"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_pink_dark_transparent.png");
+}
+section[data-marpit-pagination="182"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/pink.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="182"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/pink_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="189"] {
@@ -2225,6 +3461,12 @@ section[data-marpit-pagination="189"]::before {
 section[data-marpit-pagination="189"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_pink_dark_transparent.png");
 }
+section[data-marpit-pagination="189"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/pink.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="189"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/pink_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="196"] {
   --current-accent: #d980a0;
@@ -2234,6 +3476,12 @@ section[data-marpit-pagination="196"]::before {
 }
 section[data-marpit-pagination="196"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_pink_dark_transparent.png");
+}
+section[data-marpit-pagination="196"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/pink.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="196"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/pink_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 section[data-marpit-pagination="203"] {
@@ -2245,6 +3493,12 @@ section[data-marpit-pagination="203"]::before {
 section[data-marpit-pagination="203"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_pink_dark_transparent.png");
 }
+section[data-marpit-pagination="203"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/pink.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="203"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/pink_dark.svg") no-repeat 50% 70%/60% auto;
+}
 
 section[data-marpit-pagination="210"] {
   --current-accent: #d980a0;
@@ -2254,6 +3508,12 @@ section[data-marpit-pagination="210"]::before {
 }
 section[data-marpit-pagination="210"].invert::before {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_pink_dark_transparent.png");
+}
+section[data-marpit-pagination="210"] .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/pink.svg") no-repeat 50% 70%/60% auto;
+}
+section[data-marpit-pagination="210"].invert .thanks {
+  background: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/star/pink_dark.svg") no-repeat 50% 70%/60% auto;
 }
 
 /* Title cards */
@@ -5886,6 +7146,7 @@ section::before {
   bottom: 30px;
   background-repeat: no-repeat;
   background-size: contain;
+  z-index: 1;
 }
 
 /* Block quotes */
@@ -6298,6 +7559,21 @@ section::before {
 /* Misc formatting */
 :root center * {
   text-align: center !important;
+}
+
+/* Last slide */
+:root .thanks {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+:root .thanks::before {
+  content: "thank you!";
+  margin-top: 6.5em;
+  font-size: 2em;
+  font-family: Righteous;
 }
 
 /*# sourceMappingURL=codestar.css.map */
