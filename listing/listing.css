@@ -24,6 +24,7 @@ html, body {
 }
 
 h1 {
+    white-space: pre;
     color: white;
     font-family: Righteous;
     text-transform: lowercase;
@@ -39,6 +40,8 @@ h1 {
     font-size: 1.45em;
     font-family: Montserrat;
     margin-bottom: -0.5em;
+    margin-left: -0.01em;
+    transform: scaleX(0.94);
 }
 
 button, input, ul, li {
