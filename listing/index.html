@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="listing.css">
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/2.3.1/list.min.js"></script>
+        <script src="listing.js"></script>
+    </head>
+	<body>
+		<div class="container">
+            <h1><span>C</span><span class="star">*</span><span>destar Slide Decks</span></h1>
+            <div class="decks" id="decks">
+                <div class="inputs">
+                    <input class="search" placeholder="Search..." />
+                    <button class="sort" title="Sort by title" data-sort="title"></button>
+                    <button class="sort" title="Sort by author" data-sort="author"></button>
+                    <button class="sort" title="Sort by date" data-sort="date"></button>
+                    <button class="sort" title="Sort by number of slides" data-sort="total_slides"></button>
+                </div>
+                <ul class="list"></ul>
+            </div>
+            <div class="attribution">Background by <a href="www.freepik.com">Freepik</a></div>
+        </div>
+	</body>
+</html>

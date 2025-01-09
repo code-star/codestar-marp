@@ -1,6 +1,7 @@
 ---
 marp: true
 title: New Codestar Marp theme
+author: Hamza Haiken
 theme: codestar
 # class: invert
 paginate: true

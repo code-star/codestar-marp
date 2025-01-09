@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+@font-face {
+  font-family: "Conduit";
+  src: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/fonts/ConduitITCStd.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Conduit";
+  font-weight: bold;
+  src: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/fonts/ConduitITCStd-Bold.woff") format("woff");
+}
+
+:root {
+    font-family: "Conduit";
+    --bg: rgba(0, 0, 0, 0.25);
+    color: white;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: white;
+    font-family: Righteous;
+    text-transform: lowercase;
+    font-size: 5em;
+    display: flex;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+}
+
+.star {
+    color: #ddd;
+    margin-top: 0.06em;
+    font-size: 1.45em;
+    font-family: Montserrat;
+    margin-bottom: -0.5em;
+}
+
+button, input, ul, li {
+    all: unset;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    max-height: 100vh;
+    align-items: center;
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-position: center;
+    filter: sepia(0.4) hue-rotate(-6deg) saturate(0.94);
+}
+
+.attribution {
+    color: #444;
+    position: absolute;
+    bottom: 0.7em;
+    right: 1.6em;
+    transform: rotate(90deg);
+    transform-origin: bottom right;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: #777;
+}
+
+.decks {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    flex-grow: 1;
+    overflow: hidden;
+    gap: 0.5em;
+
+    font-size: 2em;
+    max-height: 100%;
+    z-index: 1;
+}
+
+.list {
+    flex-grow: 1;
+    overflow-y: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link {
+    text-decoration: none;
+    color: unset;
+}
+
+
+.deck, .inputs {
+    background: var(--bg);
+    backdrop-filter: blur(13px);
+}
+
+.deck {
+    margin-bottom: 0.5em;
+    display: grid;
+    width: 750px;
+    grid-template-columns: .5fr .4fr .1fr;
+    grid-template-rows: .5fr .5fr;
+    height: 3em;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    transition: transform 0.05s ease-out;
+}
+
+.deck:hover {
+    transform: scale(1.05);
+}
+
+.title, .author, .date, .total_slides {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.title {
+    grid-area: 1 / 1 / 3 / 2;
+    margin-bottom: -0.15em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.author {
+    grid-area: 1 / 2 / 2 / 3;
+    font-size: 0.8em;
+    font-style: italic;
+    margin-bottom: -0.15em;
+}
+
+.date {
+    grid-area: 2 / 2 / 3 / 3;
+    align-items: center;
+    font-size: 0.6em;
+    margin-bottom: -0.15em;
+    font-weight: bold;
+}
+
+.total_slides {
+    grid-area: 1 / 3 / 3 / 4;
+    font-family: Righteous;
+    flex-direction: column;
+}
+
+.total_slides::after {
+    content: "slides";
+    font-size: 50%;
+}
+
+.inputs {
+    display: flex;
+    width: calc(750px + 0.5em);
+    align-items: center;
+    gap: 0.5em;
+    border-radius: 0.5em;
+    padding-right: 0.5em;
+}
+
+.search {
+    flex-grow: 1;
+    padding: 0.6em 0.5em 0.4em 0.5em;
+}
+
+.search::placeholder {
+    color: #bbb;
+    font-style: italic;
+}
+
+button[data-sort="title"] {
+    background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJmZWF0aGVyIGZlYXRoZXItYm9va21hcmsiPjxwYXRoIGQ9Ik0xOSAyMWwtNy01LTcgNVY1YTIgMiAwIDAgMSAyLTJoMTBhMiAyIDAgMCAxIDIgMnoiPjwvcGF0aD48L3N2Zz4=");
+}
+
+button[data-sort="author"] {
+    background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJmZWF0aGVyIGZlYXRoZXItdXNlciI+PHBhdGggZD0iTTIwIDIxdi0yYTQgNCAwIDAgMC00LTRIOGE0IDQgMCAwIDAtNCA0djIiPjwvcGF0aD48Y2lyY2xlIGN4PSIxMiIgY3k9IjciIHI9IjQiPjwvY2lyY2xlPjwvc3ZnPg==");
+}
+
+button[data-sort="date"] {
+    background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJmZWF0aGVyIGZlYXRoZXItY2FsZW5kYXIiPjxyZWN0IHg9IjMiIHk9IjQiIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCIgcng9IjIiIHJ5PSIyIj48L3JlY3Q+PGxpbmUgeDE9IjE2IiB5MT0iMiIgeDI9IjE2IiB5Mj0iNiI+PC9saW5lPjxsaW5lIHgxPSI4IiB5MT0iMiIgeDI9IjgiIHkyPSI2Ij48L2xpbmU+PGxpbmUgeDE9IjMiIHkxPSIxMCIgeDI9IjIxIiB5Mj0iMTAiPjwvbGluZT48L3N2Zz4=");
+}
+
+button[data-sort="total_slides"] {
+    background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJmZWF0aGVyIGZlYXRoZXItbGF5ZXJzIj48cG9seWdvbiBwb2ludHM9IjEyIDIgMiA3IDEyIDEyIDIyIDcgMTIgMiI+PC9wb2x5Z29uPjxwb2x5bGluZSBwb2ludHM9IjIgMTcgMTIgMjIgMjIgMTciPjwvcG9seWxpbmU+PHBvbHlsaW5lIHBvaW50cz0iMiAxMiAxMiAxNyAyMiAxMiI+PC9wb2x5bGluZT48L3N2Zz4=");
+}
+
+button[data-sort] {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    filter: invert(1);
+}

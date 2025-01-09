@@ -1,0 +1,72 @@
+[
+    {
+      "title": "Embracing Functional Paradigms Wow This Title Is Very Long I Wonder What Happens Now",
+      "author": "Alice Anna McLongname",
+      "date": "2024-08-15",
+      "path": "example",
+      "total_slides": 25
+    },
+    {
+      "title": "From Zero to Svelte: Building Interactive Web Apps the Modern Way",
+      "author": "Bob Carter",
+      "date": "2024-03-08",
+      "path": "example",
+      "total_slides": 20
+    },
+    {
+      "title": "Kotlin's Sweet Spot: A Practical Guide to Multi-Platform Development",
+      "author": "Chris Taylor",
+      "date": "2024-02-12",
+      "path": "example",
+      "total_slides": 30
+    },
+    {
+      "title": "Functional Programming in the Frontend: Lessons from Svelte and Beyond",
+      "author": "Dana Lee",
+      "date": "2024-05-10",
+      "path": "example",
+      "total_slides": 22
+    },
+    {
+      "title": "Scala’s Cats Library: Mastering Monads, Functors, and More",
+      "author": "Eve Johnson",
+      "date": "2024-06-07",
+      "path": "example",
+      "total_slides": 35
+    },
+    {
+      "title": "Reactive Web UIs with Svelte: A Deep Dive",
+      "author": "Frank Moore",
+      "date": "2024-01-15",
+      "path": "example",
+      "total_slides": 18
+    },
+    {
+      "title": "Functional Design Patterns in Scala and Kotlin",
+      "author": "Grace Kim",
+      "date": "2024-08-19",
+      "path": "example",
+      "total_slides": 28
+    },
+    {
+      "title": "Scalable State Management in Svelte Applications",
+      "author": "Harry White",
+      "date": "2024-10-23",
+      "path": "example",
+      "total_slides": 26
+    },
+    {
+      "title": "Concurrency Simplified: Functional Techniques in Scala",
+      "author": "Ivy Martinez",
+      "date": "2024-10-20",
+      "path": "example",
+      "total_slides": 32
+    },
+    {
+      "title": "Crafting Maintainable Codebases with Kotlin and Scala",
+      "author": "Jack Miller",
+      "date": "2024-03-15",
+      "path": "example",
+      "total_slides": 29
+    }
+]
