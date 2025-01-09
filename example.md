@@ -1,13 +1,18 @@
 ---
-marp: true
+# Edit this metadata
 title: New Codestar Marp theme
 author: Hamza Haiken
-theme: codestar
-# class: invert
-paginate: true
 header: "New Codestar Marp theme"
 footer: "Example slides"
+
+# Uncomment for dark mode
+# class: invert
 transition: wipe
+
+# Keep these settings
+marp: true
+theme: codestar
+paginate: true
 math: mathjax
 ---
 
@@ -20,28 +25,24 @@ math: mathjax
 
 ---
 
+<center>
+
+Scan to follow along or keep the link for later:
+
+<!-- Update this link with the name of your slides instead of 'example' -->
+![w:256px](https://api.qrserver.com/v1/create-qr-code/?size=256x256&data=code-star.github.io/codestar-marp/example/&margin=16)
+
+*Link to the slides*
+
+</center>
+
+---
+
 ## this is what title<br>cards look like
 
 Optional sub-title
 
 <!-- Presenter notes are derived from HTML comments -->
-
----
-
-<!-- _footer: That guy is doing some serious business -->
-
-![bg opacity:.1](https://picsum.photos/1080?image=5)
-
-A slide with a background image
-<br>
-
-<center>
-
-<!-- Update this link with the name of your slides instead of 'example' -->
-![w:256px](https://api.qrserver.com/v1/create-qr-code/?size=256x256&data=code-star.github.io/codestar-marp/example/&margin=16)
-*Link to the slides*
-
-</center>
 
 ---
 
@@ -125,6 +126,10 @@ And numbered:
 ## formatting options
 
 ---
+
+<!-- _footer: That guy is doing some serious business -->
+
+![bg opacity:.1](https://picsum.photos/1080?image=5)
 
 **bold!** _italic!_ emoji codes: :satellite: :otter:
 

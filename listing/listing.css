@@ -135,6 +135,7 @@ button, input, ul, li {
     margin-bottom: -0.15em;
     overflow: hidden;
     text-overflow: ellipsis;
+    justify-content: start;
 }
 
 .author {
