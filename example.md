@@ -1,15 +1,16 @@
 ---
-# Edit this metadata
-title: New Codestar Marp theme
+# Metadata
+title: &title New Codestar Marp theme
 author: Hamza Haiken
-header: "New Codestar Marp theme"
-footer: "Example slides"
+header: *title  # Header set to the same value as the title, can be changed if needed
+footer: Example slides
 
+# Appearance
 # Uncomment for dark mode
 # class: invert
 transition: wipe
 
-# Keep these settings
+# Don't change
 marp: true
 theme: codestar
 paginate: true
