@@ -57,9 +57,10 @@ h1 {
     margin-bottom: -0.5em;
     margin-left: -0.01em;
     transform: scaleX(0.94);
+    mix-blend-mode: overlay;
 }
 
-h1 span:not(.star) {
+h1 span {
     z-index: 1;
 }
 
