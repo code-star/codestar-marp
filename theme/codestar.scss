@@ -91,10 +91,7 @@ section:has(> h1), section:has(> h2), section:has(.title) {
   &::after {
     color: var(--cs-background);
   }
-  header {
-    display: none;
-  }
-  footer {
+  header, footer {
     display: none;
   }
 }
@@ -102,6 +99,10 @@ section:has(> h1), section:has(> h2), section:has(.title) {
 /* First title card */
 :root:has(.title) {
   @include patterns.pattern(list.nth(patterns.$patterns, 1));
+  &::before, &::after {
+    display: none;
+  }
+
   .title {
     position: absolute;
     inset: 0;
@@ -120,8 +121,8 @@ section:has(> h1), section:has(> h2), section:has(.title) {
     }
 
     & div:nth-child(2) {
-      color: var(--cs-background);
-      background: var(--cs-background-dark);
+      color: var(--color-foreground);
+      background: var(--color-background);
       writing-mode: vertical-lr;
 
       &::before {
@@ -133,7 +134,7 @@ section:has(> h1), section:has(> h2), section:has(.title) {
 
       &::after {
         content: "";
-        background-image: url("#{$url-base}/theme/logo/logo_red_dark_transparent_tagline%402x.png");
+        background-image: url("#{$url-base}/theme/logo/logo_red_light_transparent_tagline.png");
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
@@ -141,6 +142,9 @@ section:has(> h1), section:has(> h2), section:has(.title) {
       }
     }
   }
+}
+:root.invert .title div:nth-child(2)::after {
+  background-image: url("#{$url-base}/theme/logo/logo_red_dark_transparent_tagline.png");
 }
 
 /* Rotating section backgrounds for title cards */
@@ -361,5 +365,11 @@ section::before {
     margin-top: 6.5em;
     font-size: 2em;
     font-family: Righteous;
+  }
+}
+
+:root:has(.thanks) {
+  &::before, &::after, footer, header {
+    display: none;
   }
 }

@@ -261,6 +261,4 @@ Alignments:
 
 ---
 
-<!-- _footer: '' -->
-
 <div class="thanks"></div>

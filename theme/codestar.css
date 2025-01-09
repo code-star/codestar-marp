@@ -3527,10 +3527,7 @@ section:has(> h1)::before, section:has(> h2)::before, section:has(.title)::befor
 section:has(> h1)::after, section:has(> h2)::after, section:has(.title)::after {
   color: var(--cs-background);
 }
-section:has(> h1) header, section:has(> h2) header, section:has(.title) header {
-  display: none;
-}
-section:has(> h1) footer, section:has(> h2) footer, section:has(.title) footer {
+section:has(> h1) header, section:has(> h1) footer, section:has(> h2) header, section:has(> h2) footer, section:has(.title) header, section:has(.title) footer {
   display: none;
 }
 
@@ -3549,6 +3546,9 @@ section:has(> h1) footer, section:has(> h2) footer, section:has(.title) footer {
   background: var(--l1), var(--l1) calc(var(--s) / 2) var(--s), var(--l2), var(--l2) calc(var(--s) / 2) var(--s), conic-gradient(var(--c), var(--c1) 0) calc(var(--s) / 8) 0, conic-gradient(var(--c), var(--c3) 0) calc(var(--s) / 2) 0, linear-gradient(90deg, var(--c3) 38%, var(--c1) 0 50%, var(--c3) 0 62%, var(--c1) 0);
   background-size: var(--s) calc(2 * var(--s) / 3);
 }
+:root:has(.title)::before, :root:has(.title)::after {
+  display: none;
+}
 :root:has(.title) .title {
   position: absolute;
   inset: 0;
@@ -3565,8 +3565,8 @@ section:has(> h1) footer, section:has(> h2) footer, section:has(.title) footer {
   align-items: center;
 }
 :root:has(.title) .title div:nth-child(2) {
-  color: var(--cs-background);
-  background: var(--cs-background-dark);
+  color: var(--color-foreground);
+  background: var(--color-background);
   writing-mode: vertical-lr;
 }
 :root:has(.title) .title div:nth-child(2)::before {
@@ -3577,11 +3577,15 @@ section:has(> h1) footer, section:has(> h2) footer, section:has(.title) footer {
 }
 :root:has(.title) .title div:nth-child(2)::after {
   content: "";
-  background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_red_dark_transparent_tagline%402x.png");
+  background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_red_light_transparent_tagline.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   flex-grow: 1;
+}
+
+:root.invert .title div:nth-child(2)::after {
+  background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_red_dark_transparent_tagline.png");
 }
 
 /* Rotating section backgrounds for title cards */
@@ -7574,6 +7578,10 @@ section::before {
   margin-top: 6.5em;
   font-size: 2em;
   font-family: Righteous;
+}
+
+:root:has(.thanks)::before, :root:has(.thanks)::after, :root:has(.thanks) footer, :root:has(.thanks) header {
+  display: none;
 }
 
 /*# sourceMappingURL=codestar.css.map */
