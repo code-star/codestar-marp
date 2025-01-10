@@ -74,11 +74,28 @@ Quick links:
     <!-- _header: '' -->
     <!-- _footer: '' -->
     ```
+
 ### Customization
 
 - Make sure to **update the QR code's link** by replacing `example/` with the name of your slide deck's directory.
 - If you prefer a dark theme, uncomment `class: invert` in the front matter.
 - Presenter notes can be added using regular HTML comments, and will be visible on each slide when using the presenter mode. To start presenter mode, move the mouse over the presentation and click the right button on the toolbar.
+- To make a slide with multiple columns, use a `<div>` with the `columns` class:
+
+    ```markdown
+    <div class="columns">
+    <div>
+
+    Column 1 markdown goes here
+
+    </div><div>
+
+    Column 2 markdown goes here
+
+    </div>
+    ```
+
+    The number of columns is dynamic and unbounded. For an example, consult the example slides in `example.md`.
 
 ### Other guidelines
 
