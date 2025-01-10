@@ -3553,29 +3553,29 @@ section:has(> h1) header, section:has(> h1) footer, section:has(> h2) header, se
   position: absolute;
   inset: 0;
   display: grid;
-  grid-template-columns: 0.7fr 0.3fr;
+  grid-template-columns: 0.3fr 0.7fr;
 }
 :root:has(.title) .title div {
   padding: 1em;
   display: flex;
   flex-direction: column;
 }
-:root:has(.title) .title div:first-child {
+:root:has(.title) .title div:nth-child(2) {
   justify-content: center;
   align-items: center;
 }
-:root:has(.title) .title div:nth-child(2) {
+:root:has(.title) .title div:first-child {
   color: var(--color-foreground);
   background: var(--color-background);
   writing-mode: vertical-lr;
 }
-:root:has(.title) .title div:nth-child(2)::before {
+:root:has(.title) .title div:first-child::before {
   font-style: italic;
   content: "A presentation brought to you by";
   transform: rotate(180deg);
   text-align: left;
 }
-:root:has(.title) .title div:nth-child(2)::after {
+:root:has(.title) .title div:first-child::after {
   content: "";
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_red_light_transparent_tagline.png");
   background-size: contain;

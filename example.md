@@ -17,12 +17,12 @@ paginate: true
 math: mathjax
 ---
 
-<div class="title"><div>
+<div class="title"><div></div><div>
 
 # Introducing Marp slides
 *A new Codestar theme for Marp*
 
-</div><div></div></div>
+</div></div>
 
 ---
 

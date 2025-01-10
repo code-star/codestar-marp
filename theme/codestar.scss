@@ -107,7 +107,7 @@ section:has(> h1), section:has(> h2), section:has(.title) {
     position: absolute;
     inset: 0;
     display: grid;
-    grid-template-columns: 0.7fr 0.3fr;
+    grid-template-columns: 0.3fr 0.7fr;
 
     & div {
       padding: 1em;
@@ -115,12 +115,12 @@ section:has(> h1), section:has(> h2), section:has(.title) {
       flex-direction: column;
     }
 
-    & div:first-child {
+    & div:nth-child(2) {
       justify-content: center;
       align-items: center;
     }
 
-    & div:nth-child(2) {
+    & div:first-child {
       color: var(--color-foreground);
       background: var(--color-background);
       writing-mode: vertical-lr;
