@@ -31,7 +31,7 @@ math: mathjax
 Scan to follow along or keep the link for later:
 
 <!-- Update this link with the name of your slides instead of 'example' -->
-![w:256px](https://api.qrserver.com/v1/create-qr-code/?data=code-star.github.io/codestar-marp/example/&size=512x512&bgcolor=f1e7da)
+![w:256px](https://api.qrserver.com/v1/create-qr-code/?data=code-star.github.io/codestar-marp/example/&size=512x512&bgcolor=f1e7da&margin=16)
 
 *Link to the slides*
 

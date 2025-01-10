@@ -3584,7 +3584,7 @@ section:has(> h1) header, section:has(> h1) footer, section:has(> h2) header, se
   flex-grow: 1;
 }
 
-:root.invert .title div:nth-child(2)::after {
+:root.invert .title div:first-child::after {
   background-image: url("https://raw.githubusercontent.com/code-star/codestar-marp/master/theme/logo/logo_red_dark_transparent_tagline.png");
 }
 

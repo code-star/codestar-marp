@@ -143,7 +143,7 @@ section:has(> h1), section:has(> h2), section:has(.title) {
     }
   }
 }
-:root.invert .title div:nth-child(2)::after {
+:root.invert .title div:first-child::after {
   background-image: url("#{$url-base}/theme/logo/logo_red_dark_transparent_tagline.png");
 }
 
