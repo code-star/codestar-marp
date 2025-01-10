@@ -17,7 +17,6 @@ paginate: true
 math: mathjax
 ---
 
----
 <div class="title"><div></div><div>
 
 # Introducing Marp slides

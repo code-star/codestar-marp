@@ -42,6 +42,14 @@ $url-base: "https://raw.githubusercontent.com/code-star/codestar-marp/master";
   --color-highlight-heading: color-mix(var(--color-background), var(--current-accent), 20%);
   --color-header: color-mix(in hsl, var(--current-accent), #000000 15%);
   --color-header-shadow: transparent;
+
+  @for $i from 1 through list.length(colors.$cs-colors) {
+    $color-name: list.nth(colors.$cs-color-names, $i);
+    --lg-#{$i}-l: url("#{$url-base}/theme/logo/logo_#{$color-name}_light_transparent.png");
+    --lg-#{$i}-d: url("#{$url-base}/theme/logo/logo_#{$color-name}_dark_transparent.png");
+    --star-#{$i}-l: url("#{$url-base}/theme/star/#{$color-name}.svg") no-repeat 50% 70% / 60% auto;
+    --star-#{$i}-d: url("#{$url-base}/theme/star/#{$color-name}_dark.svg") no-repeat 50% 70% / 60% auto;
+  }
 }
 
 :root.invert {
@@ -59,22 +67,16 @@ $url-base: "https://raw.githubusercontent.com/code-star/codestar-marp/master";
       $color-name: list.nth(colors.$cs-color-names, $i);
 
       &::before {
-        background-image: url(
-          "#{$url-base}/theme/logo/logo_#{$color-name}_light_transparent.png"
-        );
+        background-image: var(--lg-#{$i}-l);
       }
       &.invert::before {
-        background-image: url(
-          "#{$url-base}/theme/logo/logo_#{$color-name}_dark_transparent.png"
-        );
+        background-image: var(--lg-#{$i}-d);
       }
       & .thanks {
-        background:
-          url("#{$url-base}/theme/star/#{$color-name}.svg") no-repeat 50% 70% / 60% auto;
+        background: var(--star-#{$i}-l);
       }
       &.invert .thanks {
-        background:
-          url("#{$url-base}/theme/star/#{$color-name}_dark.svg") no-repeat 50% 70% / 60% auto;
+        background: var(--star-#{$i}-d);
       }
     }
   }
