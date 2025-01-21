@@ -3643,6 +3643,23 @@ section:has(> h1) header, section:has(> h1) footer, section:has(> h2) header, se
   display: none;
 }
 
+/* Video slides */
+section:has(video) {
+  background-color: var(--cs-background-dark);
+}
+section:has(video)::before, section:has(video)::after {
+  display: none;
+}
+section:has(video) header, section:has(video) footer {
+  display: none;
+}
+section:has(video) video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
 /* First title card */
 :root:has(.title) {
   background: var(--hollow-cubes);

@@ -98,6 +98,24 @@ section:has(> h1), section:has(> h2), section:has(.title) {
   }
 }
 
+/* Video slides */
+section:has(video) {
+  background-color: var(--cs-background-dark);
+
+  &::before, &::after {
+    display: none;
+  }
+  header, footer {
+    display: none;
+  }
+  & video {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
 /* First title card */
 :root:has(.title) {
   @include patterns.pattern(list.nth(patterns.$patterns, 1));
