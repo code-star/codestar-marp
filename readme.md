@@ -45,7 +45,7 @@ Quick links:
     cp example.md decks/deck-name/slides.md
     ```
 
-    Extra resource files (for example images) can go in that new folder as well.
+    Extra resource files (for example images or videos) can go in that new folder as well.
 
 - Edit and preview your slides:
 
@@ -79,7 +79,11 @@ Quick links:
 
 - Make sure to **update the QR code's link** by replacing `example/` with the name of your slide deck's directory.
 - If you prefer a dark theme, uncomment `class: invert` in the front matter.
-- Presenter notes can be added using regular HTML comments, and will be visible on each slide when using the presenter mode. To start presenter mode, move the mouse over the presentation and click the right button on the toolbar.
+- Presenter notes can be added using regular HTML comments, and will be visible on each slide when using the presenter mode.
+
+> [!TIP]
+> To start presenter mode, move the mouse over the presentation and click the right button on the toolbar.
+
 - To make a slide with multiple columns, use a `<div>` with the `columns` class:
 
     ```markdown
@@ -95,13 +99,31 @@ Quick links:
     </div>
     ```
 
-    The number of columns is dynamic and unbounded. For an example, consult the example slides in `example.md`.
+> [!NOTE]
+> The number of columns is dynamic and unbounded. For an example, consult the example slides in `example.md`.
+
+- To embed a video, make a standalone slide with the following tag in it:
+
+    ```md
+    ---
+
+    <video autoplay loop muted src="video.mp4"></video>
+
+    ---
+    ```
+
+> [!NOTE]
+> The `muted` attribute is necessary for the `autoplay` to work (otherwise browsers block it to avoid spam). If you need sound, use `<video controls src="video.mp4">`
+
+> [!WARNING]
+> Make sure to produce clips that are not too big in size. You can search online for `ffmpeg` compression tips. The options `-c:v libx264 -crf 23 -preset fast` should be a good starting point.
+
 
 ### Other guidelines
 
-- Keep the `div` structure of the title card and the thank you slide intact
+- Keep the `div` structure of the title card and the thank you slide intact.
 - Keep section title cards short, with at most a subtitle.
-- The casual tone of some slides can be changed to a more formal toneif preferred (for example, "any questions?" instead of "questions time").
+- The casual tone of some slides can be changed to a more formal tone if preferred (for example, "any questions?" instead of "questions time").
 - For reference on other formatting options, slide layouts, slide backgrounds, etc., check out all the slides from `examples.md` (you can also watch that presentation [here](https://code-star.github.io/codestar-marp/example/)).
 
 ### Quick reference links:
@@ -137,4 +159,5 @@ Requirements:
 
 You can then run `./watch.sh` to watch for changes in any SCSS file to rebuild the main CSS file.
 
-*Note: the output file `theme/codestar.css` is included in version control so that it can be hosted and used directly as a link to GitHub, but it is generated code and not meant for editing.*
+> [!NOTE]
+> The output file `theme/codestar.css` is included in version control so that it can be hosted and used directly as a link to GitHub, but it is generated code and not meant for editing.
