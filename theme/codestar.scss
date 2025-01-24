@@ -241,6 +241,11 @@ section:not(:has(h1)):not(:has(h2)) {
     left: 0;
     margin-top: -0.07em;
   }
+
+  & li ul li::before {
+    content: "›";
+    margin-top: -0.33em;
+  }
 }
 
 /* Ordered lists */

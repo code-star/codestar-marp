@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* @theme codestar */
 @import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
 @import url("https://fonts.cdnfonts.com/css/conduit-itc-medium");
@@ -5206,6 +5207,10 @@ section:not(:has(h1)):not(:has(h2)) p, section:not(:has(h1)):not(:has(h2)) h3, s
   font-size: 133%;
   left: 0;
   margin-top: -0.07em;
+}
+:root ul li ul li::before {
+  content: "›";
+  margin-top: -0.33em;
 }
 
 /* Ordered lists */
