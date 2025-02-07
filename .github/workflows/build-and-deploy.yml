@@ -50,6 +50,9 @@ jobs:
         cp listing/* build/
         mv decks.json build/
 
+    - name: Add CNAME file
+      run: echo slides.codestar.nl > build/CNAME
+
     - name: Upload artifacts
       id: deployment
       uses: actions/upload-pages-artifact@v3

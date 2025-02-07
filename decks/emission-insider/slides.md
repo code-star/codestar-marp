@@ -27,7 +27,7 @@ math: mathjax
 
 Scan to follow along or keep the link for later:
 
-![w:256px](https://api.qrserver.com/v1/create-qr-code/?data=code-star.github.io/codestar-marp/emission-insider/&size=512x512&bgcolor=f1e7da&margin=16)
+![w:256px](https://api.qrserver.com/v1/create-qr-code/?data=slides.codestar.nl/emission-insider/&size=512x512&bgcolor=f1e7da&margin=16)
 
 *Link to the slides*
 
