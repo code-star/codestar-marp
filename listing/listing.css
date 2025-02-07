@@ -81,6 +81,10 @@ button, input, ul, li {
     background-position: center;
 }
 
+.container h1 {
+    user-select: none;
+}
+
 .attribution {
     color: #444;
     position: absolute;
