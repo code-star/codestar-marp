@@ -61,6 +61,26 @@ It can also go to the right
 
 <!-- _header: '' -->
 <!-- _footer: '' -->
+<!-- _paginate: false -->
+
+![bg](https://picsum.photos/1080?image=36)
+
+---
+
+![bg opacity:.20](https://picsum.photos/1080?image=36)
+
+When showing pictures:
+
+- Show it in full screen, talk over it a bit
+- Then on the next slide
+  - Show the same picture again but fadeed
+  - Put your talking points
+- It makes for a nice effect and people can still see what you're talking about
+
+---
+
+<!-- _header: '' -->
+<!-- _footer: '' -->
 
 ![bg vertical](https://fakeimg.pl/1920x360/a560a8/fff/?text=Vertically)
 ![bg](https://fakeimg.pl/1920x360/b56eb8/fff/?text=split)
