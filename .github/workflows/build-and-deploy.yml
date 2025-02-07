@@ -12,6 +12,9 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v3
+      with:
+        fetch-depth: 0  # get full history so that slide dates are correct in listing
+
 
     - name: Prepare Build Directory
       run: mkdir -p build
